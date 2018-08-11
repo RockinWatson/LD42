@@ -304,16 +304,30 @@ MonoBehaviour:
   _totalDays: 40
   _pinMgr: {fileID: 114910813318592912}
   _animalPrefabs:
-    _Buckets: 00000000ffffffffffffffff
-    _HashCodes: 000000000000000000000000
-    _Next: ffffffff0000000000000000
-    _Count: 1
-    _Version: 2
+    _Buckets: 0c000000000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000ffffffffffffffffffffffffffffffff
+    _HashCodes: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000000000000000000000000000000000000000000
+    _Next: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000000000000000000000000000
+    _Count: 13
+    _Version: 55
     _FreeList: -1
     _FreeCount: 0
-    _Keys: 000000000000000000000000
+    _Keys: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000000000000000000000000000000000000000000
     _Values:
-    - {fileID: 1918562187335110, guid: 5ea2fee09a0334145bd949cd4ff50427, type: 2}
+    - {fileID: 1414029593110728, guid: 2a6b361f1a602401fbd29bd7d7aa7ad4, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
 --- !u!114 &114560970607870886
