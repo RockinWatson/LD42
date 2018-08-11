@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: 869ca578fdc95334bb6f9694c537dbdd
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Jump-Start
+    21300002: Jump-Start_000
+    21300004: Jump-Start_001
+    21300006: Jump-Start_002
+    21300008: Jump-Start_003
+    21300010: Jump-Start_004
+    21300012: Jump-Start_005
+    21300014: Jump-Start_006
+    21300016: Jump-Start_007
+    21300018: Jump-Start_008
+    21300020: Jump-Start_009
+    21300022: Jump-Start_010
+    21300024: Jump-Start_011
+    21300026: Jump-Start_012
+    21300028: Jump-Start_013
+    21300030: Jump-Start_014
+    21300032: Jump-Start_015
+    21300034: Jump-Start_016
+    21300036: Jump-Start_017
+    21300038: Jump-Start_018
+    21300040: Jump-Start_019
+    21300042: Jump-Start_020
+    21300044: Jump-Start_021
+    21300046: Jump-Start_022
+    21300048: Jump-Start_023
+    21300050: Jump-Start_024
+    21300052: Jump-Start_025
+    21300054: Jump-Start_026
+    21300056: Jump-Start_027
+    21300058: Jump-Start_028
+    21300060: Jump-Start_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jump-Start_000
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1759
+        width: 347
+        height: 288
+      alignment: 9
+      pivot: {x: 0.50144094, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833cd8df4e003744dbc4e10411ac83c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_001
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1759
+        width: 347
+        height: 288
+      alignment: 9
+      pivot: {x: 0.50144094, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136640bcbca82984184d8cf77d3cf32e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_002
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1759
+        width: 347
+        height: 288
+      alignment: 9
+      pivot: {x: 0.50144094, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d725daf1ad6d2b24cbb343f1bb1847b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_003
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1759
+        width: 347
+        height: 288
+      alignment: 9
+      pivot: {x: 0.50144094, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba884a9a13c49445a63029ddf7a0d5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_004
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1759
+        width: 347
+        height: 288
+      alignment: 9
+      pivot: {x: 0.50144094, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e982bb855b61a409e7cdec79fb1384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_005
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1173
+        width: 344
+        height: 295
+      alignment: 9
+      pivot: {x: 0.50581396, y: 0.49661016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f9484fb2fe02a4abc219b519980fb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 920
+        width: 344
+        height: 288
+      alignment: 9
+      pivot: {x: 0.50581396, y: 0.4982639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70c83f5830e4f846b09bdc74ea05c12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1210
+        width: 345
+        height: 285
+      alignment: 9
+      pivot: {x: 0.5043478, y: 0.5105263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86767ed87ae06f74d8eda7b1b37bfc9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 45
+        width: 337
+        height: 288
+      alignment: 9
+      pivot: {x: 0.4925816, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a432ef7e33f984793a4d8e371f759b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_009
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 652
+        width: 342
+        height: 289
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51384085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85edc5183651e8f42bdb2754c6dcc7ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_010
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 922
+        width: 343
+        height: 289
+      alignment: 9
+      pivot: {x: 0.50145775, y: 0.5103806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dddf8313c4ef3844acdfe7df46f1fcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_011
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 612
+        width: 342
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5121528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d312c8aea6f5a4c84a2579357e3f4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_012
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 920
+        width: 343
+        height: 289
+      alignment: 9
+      pivot: {x: 0.49854228, y: 0.5103806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c4272b879904e4d892c89629ed7be0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 335
+        width: 338
+        height: 291
+      alignment: 9
+      pivot: {x: 0.49112427, y: 0.5103093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c4704f713762c46961a2e473eef3ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_014
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 47
+        width: 338
+        height: 286
+      alignment: 9
+      pivot: {x: 0.49112427, y: 0.50874126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7136501a35c0b39489dd0cf51e7d821c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_015
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1213
+        width: 344
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5123239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea66c87b405f6543b63ac6808d1abb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_016
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1211
+        width: 344
+        height: 283
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5106007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c535db23672084bb9d6b832633812a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_017
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1470
+        width: 345
+        height: 287
+      alignment: 9
+      pivot: {x: 0.4985507, y: 0.510453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d5a4462df49874fafd363c72bd68cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_018
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 943
+        width: 344
+        height: 283
+      alignment: 9
+      pivot: {x: 0.49709302, y: 0.50706714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e172b63b52172849a8cc1dde2024b37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_019
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1768
+        width: 346
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5035842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3869e22538a884abe71ff06cceef78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 628
+        width: 343
+        height: 290
+      alignment: 9
+      pivot: {x: 0.49562684, y: 0.5017241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a1f7a6afbeb2a4d9ebf5f07a53461e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_021
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1771
+        width: 346
+        height: 276
+      alignment: 9
+      pivot: {x: 0.49710983, y: 0.5018116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67b344568cb4994d9fbdf1c0d2699a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1497
+        width: 347
+        height: 282
+      alignment: 9
+      pivot: {x: 0.4985591, y: 0.50177306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b52c3b141e239142b265506d9c848b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_023
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1767
+        width: 346
+        height: 280
+      alignment: 9
+      pivot: {x: 0.49710983, y: 0.5017857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3e9b1a120517b47aa0d726438df2bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_024
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1497
+        width: 346
+        height: 268
+      alignment: 9
+      pivot: {x: 0.49710983, y: 0.49440297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c5eefad0302b2418b9dbb89ca2d8b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1781
+        width: 348
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4943609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04760f7c01d4fd3478c3257dbf50bc96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_026
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1499
+        width: 346
+        height: 270
+      alignment: 9
+      pivot: {x: 0.49710983, y: 0.49074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bea5b2f30fb31f4dbe5364c60be8e69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_027
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1228
+        width: 345
+        height: 267
+      alignment: 9
+      pivot: {x: 0.49565217, y: 0.48876405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d4341fbf161ef46ba1b4b7b1c4493c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_028
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 902
+        width: 344
+        height: 269
+      alignment: 9
+      pivot: {x: 0.49418604, y: 0.49256507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff378d739ac7204ea5fb6aede308001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Start_029
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1496
+        width: 346
+        height: 270
+      alignment: 9
+      pivot: {x: 0.49710983, y: 0.4722222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777a3849e9c23ea4da75e686888f478f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d435ff380ad89c042845c5620cb1410c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

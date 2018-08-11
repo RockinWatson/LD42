@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: 835c21d58719514418ae0b21da99292b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fall-Start
+    21300002: Fall-Start_000
+    21300004: Fall-Start_001
+    21300006: Fall-Start_002
+    21300008: Fall-Start_003
+    21300010: Fall-Start_004
+    21300012: Fall-Start_005
+    21300014: Fall-Start_006
+    21300016: Fall-Start_007
+    21300018: Fall-Start_008
+    21300020: Fall-Start_009
+    21300022: Fall-Start_010
+    21300024: Fall-Start_011
+    21300026: Fall-Start_012
+    21300028: Fall-Start_013
+    21300030: Fall-Start_014
+    21300032: Fall-Start_015
+    21300034: Fall-Start_016
+    21300036: Fall-Start_017
+    21300038: Fall-Start_018
+    21300040: Fall-Start_019
+    21300042: Fall-Start_020
+    21300044: Fall-Start_021
+    21300046: Fall-Start_022
+    21300048: Fall-Start_023
+    21300050: Fall-Start_024
+    21300052: Fall-Start_025
+    21300054: Fall-Start_026
+    21300056: Fall-Start_027
+    21300058: Fall-Start_028
+    21300060: Fall-Start_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fall-Start_000
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1525
+        width: 347
+        height: 259
+      alignment: 9
+      pivot: {x: 0.49567723, y: 0.49227798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feeb0df5e54b7fb469a7a527fb11887f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_001
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1786
+        width: 349
+        height: 261
+      alignment: 9
+      pivot: {x: 0.49856734, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33ecf11159af024ab01c034e42371d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_002
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1253
+        width: 343
+        height: 270
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd0b622676b4954ea124cb368a57bd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_003
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1500
+        width: 344
+        height: 273
+      alignment: 9
+      pivot: {x: 0.49127907, y: 0.507326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c15e646a3027a4ca7b1428cb6a7b58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_004
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1772
+        width: 347
+        height: 275
+      alignment: 9
+      pivot: {x: 0.49567723, y: 0.51454544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2cd6fb99700f440b0b218f4564b49a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_005
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1507
+        width: 344
+        height: 263
+      alignment: 9
+      pivot: {x: 0.49127907, y: 0.51140684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a725d8a615446b74bb73dd70c96b382d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_006
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1777
+        width: 345
+        height: 270
+      alignment: 9
+      pivot: {x: 0.49275362, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0add3a1a86d3f3449efbd54362e613d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1775
+        width: 350
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5165441}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6238618730d02564996193d3f36ccfb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1495
+        width: 346
+        height: 278
+      alignment: 9
+      pivot: {x: 0.49710983, y: 0.51258993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98c7cea9dc8e6d46b5fd69e942c3f4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_009
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1499
+        width: 344
+        height: 276
+      alignment: 9
+      pivot: {x: 0.49418604, y: 0.51992756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e916d8a55c6772a4cb5c1c23bead71f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_010
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1775
+        width: 345
+        height: 272
+      alignment: 9
+      pivot: {x: 0.49565217, y: 0.52389705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddf617f857a44a4cbd3844e61473e16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_011
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1228
+        width: 342
+        height: 277
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.51805055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c4ffc95da29164689cc584b913d1c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1213
+        width: 342
+        height: 280
+      alignment: 9
+      pivot: {x: 0.49415204, y: 0.51964283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f165aa6274c80414db95c182e073aefe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 929
+        width: 339
+        height: 282
+      alignment: 9
+      pivot: {x: 0.48967552, y: 0.51950353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0736f9ae71481049a4c63148e61ff56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_014
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1216
+        width: 337
+        height: 282
+      alignment: 9
+      pivot: {x: 0.4866469, y: 0.51950353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb7de1239504eb4a87af3c92ee7de74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_015
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 944
+        width: 336
+        height: 282
+      alignment: 9
+      pivot: {x: 0.48511904, y: 0.52304965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e61e2a93cf15e64fabbce92148cdf4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 642
+        width: 334
+        height: 285
+      alignment: 9
+      pivot: {x: 0.48502994, y: 0.52105266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aee8be9e2292154b85e171d8bf3890d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_017
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 964
+        width: 339
+        height: 287
+      alignment: 9
+      pivot: {x: 0.49262536, y: 0.5174216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24ea3c8fd133aa4fb7b866dfea200b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_018
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 676
+        width: 334
+        height: 286
+      alignment: 9
+      pivot: {x: 0.48502994, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ca3bf9349c81e4bb57ba804b720063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_019
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 922
+        width: 329
+        height: 292
+      alignment: 9
+      pivot: {x: 0.47720364, y: 0.5085617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18b74c50b25b6f4db7c777ad2848075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_020
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 660
+        width: 328
+        height: 282
+      alignment: 9
+      pivot: {x: 0.47865853, y: 0.5265958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ada9bd37c194f48b901cefde3a0012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_021
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1212
+        width: 332
+        height: 285
+      alignment: 9
+      pivot: {x: 0.48493975, y: 0.52105266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc311159feff184e9b668e76d299b49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_022
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1210
+        width: 331
+        height: 287
+      alignment: 9
+      pivot: {x: 0.4833837, y: 0.5174216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883c1953aace06c4da5ab464c9c032a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_023
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 385
+        width: 327
+        height: 289
+      alignment: 9
+      pivot: {x: 0.48012233, y: 0.51384085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8d9c7e58c9ec8419b883f3e267867f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 352
+        width: 327
+        height: 288
+      alignment: 9
+      pivot: {x: 0.48012233, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99af6498021907840aaf17f8eb3e55df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_025
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 924
+        width: 325
+        height: 286
+      alignment: 9
+      pivot: {x: 0.47692308, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb82899d255d4d49ad9c0f46b44af4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_026
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 922
+        width: 323
+        height: 286
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e20f9a62c2102f4e83d8f3c086336aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_027
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 635
+        width: 322
+        height: 285
+      alignment: 9
+      pivot: {x: 0.4751553, y: 0.52105266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22c7c76a3740494b81781284948dcd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_028
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 636
+        width: 322
+        height: 286
+      alignment: 9
+      pivot: {x: 0.4751553, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcda823e5e93b84aad471b19b98b05e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Start_029
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 363
+        width: 320
+        height: 295
+      alignment: 9
+      pivot: {x: 0.471875, y: 0.50338984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ae7decdd36e20438c4fa41f9eb418c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 05672c6b9c52a04468e1302108351121
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

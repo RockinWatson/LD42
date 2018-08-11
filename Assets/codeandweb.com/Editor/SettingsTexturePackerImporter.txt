@@ -1,9 +1,39 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/Art/Noah/Fall-Loop/Fall-Loop.tpsheet
+- Assets/Art/Noah/Fall-Start/Fall-Start.tpsheet
+- Assets/Art/Noah/Idle-Happy/Idle-Happy.tpsheet
+- Assets/Art/Noah/Idle-Tired/Idle-Tired.tpsheet
+- Assets/Art/Noah/Jump/Jump.tpsheet
+- Assets/Art/Noah/Jump-Loop/Jump-Loop.tpsheet
+- Assets/Art/Noah/Jump-Start/Jump-Start.tpsheet
+- Assets/Art/Noah/PoopPanSlap/PoopPanSlap.tpsheet
+- Assets/Art/Noah/Throw/Throw.tpsheet
+- Assets/Art/Noah/Walk/Animations.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
+- Assets/Art/Noah/Fall-Loop/Fall-Loop.png
+- Assets/Art/Noah/Fall-Start/Fall-Start.png
+- Assets/Art/Noah/Idle-Happy/Idle-Happy.png
+- Assets/Art/Noah/Idle-Tired/Idle-Tired.png
+- Assets/Art/Noah/Jump/Jump.png
+- Assets/Art/Noah/Jump-Loop/Jump-Loop.png
+- Assets/Art/Noah/Jump-Start/Jump-Start.png
+- Assets/Art/Noah/PoopPanSlap/PoopPanSlap.png
+- Assets/Art/Noah/Throw/Throw.png
+- Assets/Art/Noah/Walk/Animations.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
 enableDebugOutput: 0

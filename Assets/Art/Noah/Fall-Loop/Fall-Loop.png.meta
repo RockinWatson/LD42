@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: ebce67268b8a0174780920046766b03e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fall-Loop
+    21300002: Fall-Loop_000
+    21300004: Fall-Loop_001
+    21300006: Fall-Loop_002
+    21300008: Fall-Loop_003
+    21300010: Fall-Loop_004
+    21300012: Fall-Loop_005
+    21300014: Fall-Loop_006
+    21300016: Fall-Loop_007
+    21300018: Fall-Loop_008
+    21300020: Fall-Loop_009
+    21300022: Fall-Loop_010
+    21300024: Fall-Loop_011
+    21300026: Fall-Loop_012
+    21300028: Fall-Loop_013
+    21300030: Fall-Loop_014
+    21300032: Fall-Loop_015
+    21300034: Fall-Loop_016
+    21300036: Fall-Loop_017
+    21300038: Fall-Loop_018
+    21300040: Fall-Loop_019
+    21300042: Fall-Loop_020
+    21300044: Fall-Loop_021
+    21300046: Fall-Loop_022
+    21300048: Fall-Loop_023
+    21300050: Fall-Loop_024
+    21300052: Fall-Loop_025
+    21300054: Fall-Loop_026
+    21300056: Fall-Loop_027
+    21300058: Fall-Loop_028
+    21300060: Fall-Loop_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fall-Loop_000
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1756
+        width: 275
+        height: 291
+      alignment: 9
+      pivot: {x: 0.4709091, y: 0.5137457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e01a735064131b43ae9c4e1cecf3778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 861
+        width: 278
+        height: 293
+      alignment: 9
+      pivot: {x: 0.46582735, y: 0.5102389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ceb343fec0ee7499340a1be77799d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_002
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1761
+        width: 275
+        height: 286
+      alignment: 9
+      pivot: {x: 0.46, y: 0.52272725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1b6637ff99f6e469a56c0c55ae1c32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1453
+        width: 274
+        height: 296
+      alignment: 9
+      pivot: {x: 0.46532845, y: 0.5050676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451ede840944afa45a4f16df27191d92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_004
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1460
+        width: 281
+        height: 291
+      alignment: 9
+      pivot: {x: 0.47153026, y: 0.5137457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffe12cb4d85a8c4496576d004a4b000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1751
+        width: 275
+        height: 296
+      alignment: 9
+      pivot: {x: 0.46363637, y: 0.5050676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1331635c420aa2c4aa9a7ca7a3b78f51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_006
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 590
+        width: 275
+        height: 288
+      alignment: 9
+      pivot: {x: 0.46363637, y: 0.5190972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550b143cb7180f048a89597dafc7e13f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_007
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 893
+        width: 276
+        height: 285
+      alignment: 9
+      pivot: {x: 0.46195653, y: 0.5245614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7f6098bc23b4840896fd633d546518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_008
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1454
+        width: 277
+        height: 295
+      alignment: 9
+      pivot: {x: 0.46389893, y: 0.5067797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709a304e4a2833c4e9642a4210415615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_009
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1468
+        width: 276
+        height: 287
+      alignment: 9
+      pivot: {x: 0.46195653, y: 0.5209059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d541e8cc1fb4f40b4f94de448441dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_010
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1180
+        width: 277
+        height: 286
+      alignment: 9
+      pivot: {x: 0.46028882, y: 0.52272725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbc8e141a4a22d4c86d4fb3e6ad731b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_011
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 594
+        width: 277
+        height: 285
+      alignment: 9
+      pivot: {x: 0.46028882, y: 0.5245614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbceaa776e3a2a64d933a785d87c33ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_012
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1
+        width: 278
+        height: 284
+      alignment: 9
+      pivot: {x: 0.4622302, y: 0.52288735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf820d7fad471084fb2285e2f7c418f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_013
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 286
+        width: 276
+        height: 289
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.517301}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207bc1db3d059124b96d9dabfec80027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_014
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1757
+        width: 277
+        height: 290
+      alignment: 9
+      pivot: {x: 0.46028882, y: 0.51551723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b6d009a795c4b4396811f35625f2d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 567
+        width: 279
+        height: 292
+      alignment: 9
+      pivot: {x: 0.4641577, y: 0.5119863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6bcbcd29a24e040826b0dedf6affc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_016
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1170
+        width: 276
+        height: 288
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.5190972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db25df831595ab045a7bf207ece9fa87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_017
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 577
+        width: 277
+        height: 289
+      alignment: 9
+      pivot: {x: 0.46028882, y: 0.517301}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178fc98775da14b4aab14c876a062856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_018
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 868
+        width: 276
+        height: 290
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.51551723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e439bdb76647cc442abba73ccbfc6368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_019
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1473
+        width: 276
+        height: 286
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422072d93c48d68408cff9b671630b83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_020
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 287
+        width: 277
+        height: 288
+      alignment: 9
+      pivot: {x: 0.46028882, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117c322d4e55f2a46a95ed647548b2fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 273
+        width: 279
+        height: 292
+      alignment: 9
+      pivot: {x: 0.4641577, y: 0.5119863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d799e2c4bc8aa439d25794eb2f9684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_022
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1160
+        width: 276
+        height: 292
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.5119863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff27bfa6ee401a44e9c888cccea89455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_023
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 881
+        width: 277
+        height: 287
+      alignment: 9
+      pivot: {x: 0.46028882, y: 0.5209059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9186442aade844292d272daaece170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_024
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1753
+        width: 277
+        height: 294
+      alignment: 9
+      pivot: {x: 0.46389893, y: 0.5085034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e967ed7333657134ebc27f838e32c5e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_025
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 880
+        width: 276
+        height: 288
+      alignment: 9
+      pivot: {x: 0.46195653, y: 0.5190972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687f302abbd80ee4baf4927c3ca21d78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_026
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1187
+        width: 276
+        height: 284
+      alignment: 9
+      pivot: {x: 0.46195653, y: 0.52640843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f64f8af6d87304b9d046166e304265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_027
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1170
+        width: 275
+        height: 288
+      alignment: 9
+      pivot: {x: 0.46363637, y: 0.5190972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c33e43f3be4b54087824d941cad898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1156
+        width: 278
+        height: 295
+      alignment: 9
+      pivot: {x: 0.4622302, y: 0.5067797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b7cde0f4d5fa141a04a0e14d35a997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall-Loop_029
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1761
+        width: 278
+        height: 286
+      alignment: 9
+      pivot: {x: 0.4622302, y: 0.52272725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8299261135a28743a2cb47d7ff49bad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3976403081c9f2c4c90907af1baf138b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
