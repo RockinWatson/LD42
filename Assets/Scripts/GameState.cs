@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +12,13 @@ public class GameState : MonoBehaviour {
     [SerializeField]
     private uint _totalDays = 40;
     private uint _currentDay = 0;
+
+    [SerializeField]
+    private HoldingPinMgr _pinMgr = null;
+
+    [SerializeField]
+    private DictionaryOfAnimalPrefabs _animalPrefabs;
+
 
 	// Use this for initialization
 	void Start () {

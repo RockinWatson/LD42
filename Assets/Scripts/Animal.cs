@@ -1,9 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class Animal : MonoBehaviour {
 
+    [Serializable]
     public enum ANIMAL_TYPE {
         RABBIT = 0,
         DRAGON = 1,
@@ -59,3 +62,9 @@ public class Animal : MonoBehaviour {
         _isDead = true;
     }
 }
+
+[Serializable]
+public class DictionaryOfAnimalPrefabs : SerializableDictionary<Animal.ANIMAL_TYPE, GameObject> { }
+
+[CustomPropertyDrawer(typeof(DictionaryOfAnimalPrefabs))]
+public class MyDictionaryDrawer2 : DictionaryDrawer<Animal.ANIMAL_TYPE, GameObject> { }
