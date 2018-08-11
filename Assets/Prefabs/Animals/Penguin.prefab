@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4790660960697340}
+  - component: {fileID: 114952293358072266}
   - component: {fileID: 212565608200680806}
   m_Layer: 0
   m_Name: Penguin
@@ -40,6 +41,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114952293358072266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668534505848664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12de076fbaf44ea0bac325783e9f0d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pooRate: 1
+  _pooPrefab: {fileID: 1665058962666544, guid: 21da62d22d9a041578564abae91d0afa, type: 2}
+  _keepAliveScore: 10
 --- !u!212 &212565608200680806
 SpriteRenderer:
   m_ObjectHideFlags: 1

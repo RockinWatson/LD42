@@ -52,6 +52,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55bb41d8e387e4fb89378c9506572ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _pooRate: 1
+  _pooPrefab: {fileID: 1665058962666544, guid: 21da62d22d9a041578564abae91d0afa, type: 2}
+  _keepAliveScore: 10
 --- !u!212 &212283131050236266
 SpriteRenderer:
   m_ObjectHideFlags: 1
