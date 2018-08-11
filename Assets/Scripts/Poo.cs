@@ -6,6 +6,9 @@ public class Poo : MonoBehaviour {
 
     [SerializeField]
     private float _weight = 1.0f;
+    public float GetWeight() {
+        return _weight;
+    }
 
 	// Use this for initialization
 	void Start () {
