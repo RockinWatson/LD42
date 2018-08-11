@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Llama : MonoBehaviour {
+public class Llama : Animal {
 
 	// Use this for initialization
 	void Start () {
