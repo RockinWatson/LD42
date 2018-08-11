@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: 938f3ec8762e8ac48928fb6a285cc7ce
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Jump-Loop
+    21300002: Jump-Loop_000
+    21300004: Jump-Loop_001
+    21300006: Jump-Loop_002
+    21300008: Jump-Loop_003
+    21300010: Jump-Loop_004
+    21300012: Jump-Loop_005
+    21300014: Jump-Loop_006
+    21300016: Jump-Loop_007
+    21300018: Jump-Loop_008
+    21300020: Jump-Loop_009
+    21300022: Jump-Loop_010
+    21300024: Jump-Loop_011
+    21300026: Jump-Loop_012
+    21300028: Jump-Loop_013
+    21300030: Jump-Loop_014
+    21300032: Jump-Loop_015
+    21300034: Jump-Loop_016
+    21300036: Jump-Loop_017
+    21300038: Jump-Loop_018
+    21300040: Jump-Loop_019
+    21300042: Jump-Loop_020
+    21300044: Jump-Loop_021
+    21300046: Jump-Loop_022
+    21300048: Jump-Loop_023
+    21300050: Jump-Loop_024
+    21300052: Jump-Loop_025
+    21300054: Jump-Loop_026
+    21300056: Jump-Loop_027
+    21300058: Jump-Loop_028
+    21300060: Jump-Loop_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jump-Loop_000
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1779
+        width: 351
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5014245, y: 0.5018657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67db70818dc8e254a8b8da91d32f0a68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1781
+        width: 352
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5056391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565e91048c2652549a7ba65d8cfcd804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_002
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1250
+        width: 342
+        height: 267
+      alignment: 9
+      pivot: {x: 0.50292397, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a827b7b043b7f34091addb1f7675607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_003
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1510
+        width: 341
+        height: 269
+      alignment: 9
+      pivot: {x: 0.49853373, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6be60110a80724d8492b18ce888442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_004
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 978
+        width: 339
+        height: 267
+      alignment: 9
+      pivot: {x: 0.48967552, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f1d92c8b6dc4a4d8ecab1acc2cd1a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 715
+        width: 340
+        height: 262
+      alignment: 9
+      pivot: {x: 0.4882353, y: 0.5057252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fb4fcd97447af4683a4da13194b750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_006
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1518
+        width: 345
+        height: 265
+      alignment: 9
+      pivot: {x: 0.49275362, y: 0.50754714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cec354767d82d42aa693ba935f90cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_007
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 984
+        width: 340
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5029412, y: 0.5094697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba4e5d6ef6072a40a74f0b2c42d39f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_008
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 452
+        width: 337
+        height: 261
+      alignment: 9
+      pivot: {x: 0.49554896, y: 0.51532567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8240c2afdf5a46247b40b6b3bc0850aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_009
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 186
+        width: 336
+        height: 264
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.5094697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3d224445a5ba0469ce2ae3fd51ee65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_010
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 715
+        width: 340
+        height: 263
+      alignment: 9
+      pivot: {x: 0.49117646, y: 0.51140684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d56a1bdae95af40b8e625d3b18a43c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_011
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1248
+        width: 341
+        height: 260
+      alignment: 9
+      pivot: {x: 0.48973608, y: 0.5173077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3be78c517aef24d8f3df4d43747a44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_012
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 719
+        width: 340
+        height: 264
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.5094697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b25bb6b99d93c749bbac2515e9f49d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1520
+        width: 342
+        height: 259
+      alignment: 9
+      pivot: {x: 0.4853801, y: 0.51158303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d2c98ce9bac7c44900b89cbc41c14a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 184
+        width: 337
+        height: 268
+      alignment: 9
+      pivot: {x: 0.47774482, y: 0.5018657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7f3900abcaa5b40908ddd6b20a34ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_015
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1785
+        width: 352
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5133588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c79b9b07b0ef7040bd2553707b8b293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_016
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 454
+        width: 338
+        height: 263
+      alignment: 9
+      pivot: {x: 0.47928995, y: 0.50760454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bb173a7ec71db45a9dc06ec8b698e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_017
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1519
+        width: 343
+        height: 258
+      alignment: 9
+      pivot: {x: 0.48688048, y: 0.51744187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe864d204f8d5344981d55a8b7b35877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_018
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1515
+        width: 344
+        height: 263
+      alignment: 9
+      pivot: {x: 0.49127907, y: 0.51140684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac03a5fd6f67cc541b8a94fcb8c0dead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_019
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1253
+        width: 341
+        height: 263
+      alignment: 9
+      pivot: {x: 0.49266863, y: 0.51140684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ec6e8ad8b69fb4a82ba66efce53773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_020
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 186
+        width: 336
+        height: 264
+      alignment: 9
+      pivot: {x: 0.48809522, y: 0.50189394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654d5ee45973f4a43b960d8c4647aa06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_021
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 985
+        width: 340
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.5056391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d7471717458544e8223cd783ddc270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_022
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 981
+        width: 329
+        height: 264
+      alignment: 9
+      pivot: {x: 0.4832827, y: 0.5094697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86571c3964a9bbd499bf63595347fe71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_023
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 980
+        width: 340
+        height: 266
+      alignment: 9
+      pivot: {x: 0.48235294, y: 0.5056391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4819b752b1593741aa2e69b6a0b319c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1249
+        width: 341
+        height: 269
+      alignment: 9
+      pivot: {x: 0.48680353, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cd7ed103037634784c1c67229b9880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_025
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1247
+        width: 342
+        height: 266
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.4981203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb446c00503b95b4ea74546e45a676f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_026
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 717
+        width: 339
+        height: 265
+      alignment: 9
+      pivot: {x: 0.48967552, y: 0.50377357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9ac0ca6d8b09345bec4e62532519a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 979
+        width: 340
+        height: 268
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.5018657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2cd60ec96a74c459d0de4ada2f35ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_028
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1780
+        width: 344
+        height: 267
+      alignment: 9
+      pivot: {x: 0.50581396, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0991e212d87f9684cbb14712c6173190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Loop_029
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1781
+        width: 352
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5056391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f97e44e2bbad714ea9301dba13ce444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bcaa889b907fb184790a039a4740a7a3
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
