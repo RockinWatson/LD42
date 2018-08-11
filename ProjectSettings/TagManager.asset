@@ -41,3 +41,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: All Da Way Back
+    uniqueID: 888465781
+    locked: 0
+  - name: In Front of All Da Way Back
+    uniqueID: 1377212427
+    locked: 0
+  - name: 1
+    uniqueID: 2769656587
+    locked: 0
+  - name: 2
+    uniqueID: 384053123
+    locked: 0
+  - name: 3
+    uniqueID: 2247128845
+    locked: 0
+  - name: 4
+    uniqueID: 2022733117
+    locked: 0
+  - name: 5
+    uniqueID: 1119502707
+    locked: 0
+  - name: 6
+    uniqueID: 4116966267
+    locked: 0
