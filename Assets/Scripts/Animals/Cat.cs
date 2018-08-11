@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cat : MonoBehaviour {
+public class Cat : Animal {
 
 	// Use this for initialization
 	void Start () {

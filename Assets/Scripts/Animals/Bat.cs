@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bat : MonoBehaviour {
+public class Bat : Animal {
 
 	// Use this for initialization
 	void Start () {

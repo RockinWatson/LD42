@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sabertooth : MonoBehaviour {
+public class Sabertooth : Animal {
 
 	// Use this for initialization
 	void Start () {
