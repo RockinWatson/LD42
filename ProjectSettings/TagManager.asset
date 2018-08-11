@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Colliders
+    uniqueID: 1579085315
+    locked: 0
   - name: All Da Way Back
     uniqueID: 888465781
     locked: 0
