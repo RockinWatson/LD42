@@ -8,12 +8,19 @@ public class Animal : MonoBehaviour {
 
     [Serializable]
     public enum ANIMAL_TYPE {
-        RABBIT = 0,
-        DRAGON = 1,
-        GECKO = 2,
-        GRIFFIN = 3,
-        DOG = 4,
-        CAT = 5,
+        BAT = 0,
+        CAT = 1,
+        DOG = 2,
+        DRAGON = 3,
+        GECKO = 4,
+        GOOSE = 5,
+        GRIFFIN = 6,
+        LLAMA = 7,
+        PENGUIN = 8,
+        PHOENIX = 9,
+        RABBIT = 10,
+        SABERTOOTH = 11,
+        UNICORN = 12,
     };
 
     [SerializeField]
