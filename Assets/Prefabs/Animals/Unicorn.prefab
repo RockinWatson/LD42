@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pooRate: 1
-  _pooPrefab: {fileID: 0}
+  _pooPrefab: {fileID: 1665058962666544, guid: 21da62d22d9a041578564abae91d0afa, type: 2}
   _keepAliveScore: 10
 --- !u!212 &212075752540841500
 SpriteRenderer:
