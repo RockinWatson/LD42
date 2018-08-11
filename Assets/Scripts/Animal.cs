@@ -17,13 +17,14 @@ public class Animal : MonoBehaviour {
     };
 
     [SerializeField]
-    private float _pooWeight = 1.0f;
-
-    [SerializeField]
     private float _pooRate = 1.0f;
+    private float _pooTimer = 0.0f;
 
     [SerializeField]
     private GameObject _pooPrefab = null;
+
+    [SerializeField]
+    private uint _keepAliveScore = 10;
 
     private HoldingPin _holdingPin = null;
     public void SetHoldingPin(HoldingPin pin) {
@@ -48,13 +49,26 @@ public class Animal : MonoBehaviour {
 	void Update () {
         if(IsAlive()) {
             //@TODO: Do alive behavior.
+            UpdatePoo();
         } else {
             //@TODO: Do dead behavior.
         }
 	}
 
-    public void TakeADump() {
+    private void UpdatePoo() {
+        if(_pooTimer >= _pooRate) {
+            TakeADump();
+            _pooTimer = 0.0f;
+        }
+    }
+
+    private void TakeADump() {
         //@TODO: Generate a new poo prefab based on the animal's individual properties (weight, etc.)
+        if(_pooPrefab) {
+            GameObject pooGO = Instantiate(_pooPrefab, this.transform.position, this.transform.rotation);
+            Poo poo = pooGO.GetComponent<Poo>();
+            _holdingPin.AddPoo(poo);
+        }
     }
 
     public void Kill() {
