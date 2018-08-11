@@ -27,6 +27,15 @@ public class Animal : MonoBehaviour {
         _holdingPin = pin;
     }
 
+    private bool _isDead = false;
+    public bool IsDead() {
+        return _isDead;
+    }
+    public bool IsAlive()
+    {
+        return !_isDead;
+    }
+
 	// Use this for initialization
 	void Start () {
 		
@@ -34,10 +43,19 @@ public class Animal : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if(IsAlive()) {
+            //@TODO: Do alive behavior.
+        } else {
+            //@TODO: Do dead behavior.
+        }
 	}
 
     public void TakeADump() {
         //@TODO: Generate a new poo prefab based on the animal's individual properties (weight, etc.)
+    }
+
+    public void Kill() {
+        //@TODO: Kill the animal, set animation to death state, etc.
+        _isDead = true;
     }
 }
