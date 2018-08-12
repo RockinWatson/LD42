@@ -10,6 +10,8 @@ public class Poo : MonoBehaviour {
         return _weight;
     }
 
+    private bool _thrown = false;
+
     public HoldingPin Pin { get; set; }
 
 	// Use this for initialization
@@ -21,4 +23,8 @@ public class Poo : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void Throw() {
+        _thrown = true;
+    }
 }

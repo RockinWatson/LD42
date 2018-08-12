@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour {
-    
+
+    [SerializeField]
+    private Transform _tray = null;
+
     [SerializeField]
     private float _pickUpRadius = 3.0f;
 
@@ -15,6 +18,9 @@ public class PlayerInventory : MonoBehaviour {
 
     [SerializeField]
     private float _vacuumSpeed = 0.05f;
+
+    [SerializeField]
+    private float _throwForce = 250.0f;
 
     private List<Poo> _poos = null;
     //private Dictionary<Poo, float> _vacuumList = null;
@@ -47,10 +53,10 @@ public class PlayerInventory : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         if(Input.GetKeyDown(KeyCode.E)) {
             GameState gameState = FindObjectOfType<GameState>();
-            if (gameState.GetDeckEdge().position.y >= this.transform.position.y)
+            if (gameState.GetDeckEdge().position.y >= _tray.position.y)
             {
                 Debug.Log("PICK UP POO!!");
                 VacuumUpPoo();
@@ -64,7 +70,7 @@ public class PlayerInventory : MonoBehaviour {
 
     private void VacuumUpPoo() {
         Collider2D[] colliders;
-        colliders = Physics2D.OverlapCircleAll(transform.position, _pickUpRadius);
+        colliders = Physics2D.OverlapCircleAll(_tray.position, _pickUpRadius);
         if(colliders.Length > 0) {
             Debug.Log("FOUND SOME SHIT!");
         }
@@ -102,7 +108,7 @@ public class PlayerInventory : MonoBehaviour {
         for (int i = 0; i < _vacuumList.Count - 1; ++i) {
             Poo poo = _vacuumList[i];
             Vector3 pos = poo.transform.position;
-            poo.transform.position = Vector3.MoveTowards(pos, poo.transform.position, _vacuumSpeed);
+            poo.transform.position = Vector3.MoveTowards(pos, poo.transform.position, _vacuumSpeed * Time.fixedDeltaTime);
             //poo.transform.position = Vector3.Lerp(pos, this.transform.position, 0.5f);
             if(Mathf.Epsilon >= (poo.transform.position - pos).sqrMagnitude) {
                 _poos.Add(poo);
@@ -124,14 +130,19 @@ public class PlayerInventory : MonoBehaviour {
         //@TODO: Calculate velocity
         Vector3 velocity = this.GetComponent<Rigidbody2D>().velocity;
         //float speed = velocity.magnitude;
+        Vector3 dir = _tray.position - FindObjectOfType<GameState>().GetDeckEdge().position;
+
+        Vector3 forceDir = Vector3.Slerp(velocity, dir, 0.75f);
 
         //@TODO: set object pos, Activate
         foreach(Poo poo in _poos) {
-            poo.transform.position = this.transform.position;
+            poo.transform.position = _tray.position;
             poo.gameObject.SetActive(true);
+            poo.Throw();
 
             //@TODO: , send them flying 
-            poo.GetComponent<Rigidbody2D>().AddForce(velocity * 50.0f);
+            poo.GetComponent<Rigidbody2D>().AddForce(forceDir * _throwForce);
+            poo.GetComponent<Rigidbody2D>().AddForce(Vector3.up * _throwForce);
         }
         _poos.Clear();
     }
