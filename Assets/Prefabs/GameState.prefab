@@ -290,7 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114049244352277086
 MonoBehaviour:
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114260525123864350
 MonoBehaviour:
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114434382518510212
 MonoBehaviour:
@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114745129974899820
 MonoBehaviour:
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114806295178730934
 MonoBehaviour:
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114910813318592912
 MonoBehaviour:
