@@ -22,6 +22,11 @@ public class PlayerInventory : MonoBehaviour {
     private List<Poo> _vacuumList = null;
     //private List<VacuumItem> _vacuumList null;
 
+    static private PlayerInventory _this;
+    static public PlayerInventory GetPlayer() {
+        return _this;
+    }
+
 	private float _totalWeight = 0.0f;
 	float GetTotalWeight()
 	{
@@ -30,6 +35,7 @@ public class PlayerInventory : MonoBehaviour {
 
     private void Awake()
     {
+        _this = this;
         _poos = new List<Poo>();
         //_vacuumList = new Dictionary<Poo, float>();
         _vacuumList = new List<Poo>();
