@@ -54,6 +54,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _pooRate: 1
   _pooPrefab: {fileID: 1665058962666544, guid: 21da62d22d9a041578564abae91d0afa, type: 2}
+  _pooPrefabs:
+  - {fileID: 1545562750863576, guid: e1ec454bf4a544deeb1f2cdd1ec3eee2, type: 2}
+  - {fileID: 1050387600252080, guid: 9bc29e1d4fd0443dbaff14876df09115, type: 2}
+  - {fileID: 1901632663918706, guid: d967a578dfc34400680743aa5ae67713, type: 2}
+  - {fileID: 1757419634566538, guid: 5c72dbb443d1a4c3f9849a255f5768b6, type: 2}
+  - {fileID: 1915234676874426, guid: 5aa168f3efa9d4ccd884aab52c0d351d, type: 2}
+  - {fileID: 1180951538198500, guid: 36ca2721fe0014c3486deb319e7b1197, type: 2}
   _keepAliveScore: 10
 --- !u!212 &212075752540841500
 SpriteRenderer:
