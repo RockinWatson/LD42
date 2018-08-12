@@ -38,7 +38,7 @@ GameObject:
   m_Layer: 0
   m_Name: RainSpawner
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -88,7 +88,7 @@ GameObject:
   m_Layer: 0
   m_Name: RainSpawner
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -174,7 +174,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1463277225332576}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.7671379, y: 6.049115, z: 0.0390625}
+  m_LocalPosition: {x: 0.41, y: 6.83, z: 0.0390625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4038263907843880}
@@ -200,7 +200,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1723564209008290}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.7671379, y: 6.049115, z: 0.0390625}
+  m_LocalPosition: {x: -1.7671379, y: 6.83, z: 0.0390625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4106483020130748}
@@ -324,8 +324,8 @@ MonoBehaviour:
   - {fileID: 1492089484638714, guid: 75ac5030b9f9240aaad38e784c3fd2dc, type: 2}
   - {fileID: 1365040520233674, guid: c04447a4e46254346b980a8a5c134bd3, type: 2}
   RainAmountTotal: 0
-  RainAmountSingle: 10
-  waitForNextMax: 0.3
+  RainAmountSingle: 5
+  waitForNextMax: 0.1
   countDown: 0
   xMin: -9
   xMax: 9
@@ -347,8 +347,8 @@ MonoBehaviour:
   - {fileID: 1492089484638714, guid: 75ac5030b9f9240aaad38e784c3fd2dc, type: 2}
   - {fileID: 1365040520233674, guid: c04447a4e46254346b980a8a5c134bd3, type: 2}
   RainAmountTotal: 0
-  RainAmountSingle: 10
-  waitForNextMax: 0.3
+  RainAmountSingle: 5
+  waitForNextMax: 0.1
   countDown: 0
   xMin: -9
   xMax: 9
