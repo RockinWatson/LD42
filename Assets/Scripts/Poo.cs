@@ -14,7 +14,7 @@ public class Poo : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        this.GetComponent<Rigidbody2D>().mass = _weight / 10.0f;
 	}
 	
 	// Update is called once per frame
