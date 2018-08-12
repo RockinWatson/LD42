@@ -33,6 +33,20 @@ public class GameState : MonoBehaviour {
     {
         return !IsAboveDeck();
     }
+    public bool IsLeftDeck(Vector3 pos) {
+        return (pos.x < _deckEdge.position.x);
+    }
+    public bool IsLeftDeck()
+    {
+        return IsLeftDeck(PlayerInventory.GetPlayer().transform.position);
+    }
+    public bool IsRightDeck(Vector3 pos) {
+        return !IsLeftDeck(pos);
+    }
+    public bool IsRightDeck()
+    {
+        return !IsLeftDeck();
+    }
 
     static private GameState _this;
     static public GameState Get() {
