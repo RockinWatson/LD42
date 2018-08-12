@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RainFall : MonoBehaviour {
+public class CloudMove : MonoBehaviour {
 
     [SerializeField]
-    private float RainSpeed;
+    private float CloudSpeed;
 
     void Update()
     {
@@ -14,12 +14,12 @@ public class RainFall : MonoBehaviour {
 
     private void Move()
     {
-        transform.Translate(Vector2.down * RainSpeed * Time.deltaTime);
+        transform.Translate(Vector2.left * CloudSpeed * Time.deltaTime);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "RainCollider")
+        if (collision.gameObject.name == "CloudCollider")
         {
             gameObject.SetActive(false);
         }

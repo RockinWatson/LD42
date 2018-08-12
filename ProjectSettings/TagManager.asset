@@ -44,6 +44,18 @@ TagManager:
   - name: Colliders
     uniqueID: 1579085315
     locked: 0
+  - name: Sky
+    uniqueID: 3674610633
+    locked: 0
+  - name: clouds
+    uniqueID: 647607061
+    locked: 0
+  - name: Water
+    uniqueID: 2808362169
+    locked: 0
+  - name: waves
+    uniqueID: 3039041039
+    locked: 0
   - name: All Da Way Back
     uniqueID: 888465781
     locked: 0
