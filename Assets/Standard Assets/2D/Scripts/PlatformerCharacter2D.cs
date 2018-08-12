@@ -97,15 +97,6 @@ namespace UnityStandardAssets._2D
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);
                 m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
-
-                if (m_Anim.velocity.y < 0.1)
-                {
-                    m_Anim.SetBool("Jumping", false);
-                }
-                else
-                {
-                    m_Anim.SetBool("Jumping", true);
-                }
             }
         }
 
