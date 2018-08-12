@@ -152,6 +152,6 @@ public class PlayerInventory : MonoBehaviour {
 
     private void OnBecameInvisible()
     {
-        GameObject.Destroy(this.gameObject);
+        //GameObject.Destroy(this.gameObject);
     }
 }

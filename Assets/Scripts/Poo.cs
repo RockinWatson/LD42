@@ -30,4 +30,9 @@ public class Poo : MonoBehaviour {
     public void Throw() {
         _thrown = true;
     }
+
+    private void OnBecameInvisible()
+    {
+        GameObject.Destroy(this.gameObject);
+    }
 }
