@@ -20,8 +20,11 @@ public class Poo : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void FixedUpdate () {
+        if(GameState.Get().IsLeftDeck(this.transform.position)) {
+            //@TODO: , send them flying 
+            this.GetComponent<Rigidbody2D>().AddForce(Vector3.right * 50.0f * Time.fixedDeltaTime);
+        }
 	}
 
     public void Throw() {
