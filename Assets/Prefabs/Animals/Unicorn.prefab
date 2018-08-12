@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d7ecb59649d4bfcba62178b5f25e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooRate: 1
+  _pooRate: 3
   _pooPrefab: {fileID: 1665058962666544, guid: 21da62d22d9a041578564abae91d0afa, type: 2}
   _pooPrefabs:
   - {fileID: 1545562750863576, guid: e1ec454bf4a544deeb1f2cdd1ec3eee2, type: 2}
