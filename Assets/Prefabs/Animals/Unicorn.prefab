@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d7ecb59649d4bfcba62178b5f25e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooRate: 3
+  _pooRate: 6
   _pooPrefab: {fileID: 1665058962666544, guid: 21da62d22d9a041578564abae91d0afa, type: 2}
   _pooPrefabs:
   - {fileID: 1545562750863576, guid: e1ec454bf4a544deeb1f2cdd1ec3eee2, type: 2}
@@ -95,7 +95,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2047838451
-  m_SortingLayer: 6
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e3a19d07a22504c1db92b35f782e2448, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
