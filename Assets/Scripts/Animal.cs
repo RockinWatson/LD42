@@ -21,6 +21,7 @@ public class Animal : MonoBehaviour {
         RABBIT = 10,
         SABERTOOTH = 11,
         UNICORN = 12,
+        COUNT,
     };
 
     [SerializeField]

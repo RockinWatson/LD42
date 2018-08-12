@@ -9,6 +9,9 @@ public class HoldingPinMgr : MonoBehaviour {
 	public HoldingPin GetPinByIndex(uint index) {
 		return _pins[index];
 	}
+    public HoldingPin[] GetPins() {
+        return _pins;
+    }
 
 	// Use this for initialization
 	void Start () {

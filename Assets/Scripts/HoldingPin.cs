@@ -19,14 +19,9 @@ public class HoldingPin : MonoBehaviour {
     private float _timeBetweenAnimalKills = 10.0f;
     private float _killAnimalTimer = 0.0f;
 
-    public void SetAnimal(Animal.ANIMAL_TYPE type) {
-        //@TODO: Generate the animal prefabs.
-
-        //@TODO: Assign them to our animals list.
-    }
-
     private void Awake()
     {
+        _animals = new List<Animal>();
         _poos = new List<Poo>();
     }
 
@@ -78,5 +73,26 @@ public class HoldingPin : MonoBehaviour {
         } else {
             _killAnimalTimer = 0.0f;
         }
+    }
+
+    public void AddAnimal(Animal.ANIMAL_TYPE type)
+    {
+        //@TODO: Retrieve appropriate prefab for animal type.
+        GameState gameState = FindObjectOfType<GameState>();
+        DictionaryOfAnimalPrefabs prefabDict = gameState.GetAnimalPrefabDictionary();
+        GameObject prefab = prefabDict[type];
+        
+        //@TODO: Generate the animal prefabs.
+        GameObject animalGO = Instantiate(prefab, this.transform.position, this.transform.rotation);
+        Animal animal = animalGO.GetComponent<Animal>();
+
+        //@TODO: Assign them to our animals list.
+        _animals.Add(animal);
+    }
+
+    public void AddAnimalPair(Animal.ANIMAL_TYPE type)
+    {
+        AddAnimal(type);
+        AddAnimal(type);
     }
 }

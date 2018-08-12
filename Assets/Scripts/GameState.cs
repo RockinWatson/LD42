@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,7 +17,11 @@ public class GameState : MonoBehaviour {
 
     [SerializeField]
     private DictionaryOfAnimalPrefabs _animalPrefabs;
+    public DictionaryOfAnimalPrefabs GetAnimalPrefabDictionary() {
+        return _animalPrefabs;
+    }
 
+    private bool _debugAnimalsSpawned = false;
 
 	// Use this for initialization
 	void Start () {
@@ -26,6 +29,7 @@ public class GameState : MonoBehaviour {
 	
 	// Update is called once per frame
 	private void Update () {
+        DebugPlayerInput();
         _currentTime += Time.deltaTime;
         if(_currentTime >= _timePerDay) {
             StartNewDay();
@@ -34,5 +38,32 @@ public class GameState : MonoBehaviour {
 
     private void StartNewDay() {
         _currentTime = 0.0f;
+    }
+
+    private void DebugPlayerInput() {
+        if(Input.GetKeyDown(KeyCode.Return) && !_debugAnimalsSpawned) {
+            Debug.Log("SPAWN SOME ANIMALS!!!");
+            DebugSpawnAnimals();
+        }
+    }
+
+    private void DebugSpawnAnimals() {
+        List<Animal.ANIMAL_TYPE> animalTypesPicked = new List<Animal.ANIMAL_TYPE>();
+        HoldingPin[] pins = _pinMgr.GetPins();
+        foreach(HoldingPin pin in pins) {
+            //@TODO: Pick random animal
+            bool indexFound = false;
+            while (!indexFound)
+            {
+                int index = Random.Range(0, (int)Animal.ANIMAL_TYPE.COUNT);
+                Animal.ANIMAL_TYPE animalType = (Animal.ANIMAL_TYPE)index;
+                if(!animalTypesPicked.Contains(animalType)) {
+                    indexFound = true;
+                    animalTypesPicked.Add(animalType);
+                    pin.AddAnimalPair(animalType);
+                }
+            }
+        }
+        _debugAnimalsSpawned = true;
     }
 }
