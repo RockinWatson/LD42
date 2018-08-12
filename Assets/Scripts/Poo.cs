@@ -5,14 +5,12 @@ using UnityEngine;
 public class Poo : MonoBehaviour {
 
     [SerializeField]
-    private LayerMask m_WhatIsGround;
-    private Transform m_GroundCheck
-
-    [SerializeField]
     private float _weight = 1.0f;
     public float GetWeight() {
         return _weight;
     }
+
+    private bool _thrown = false;
 
     public HoldingPin Pin { get; set; }
 
@@ -22,17 +20,14 @@ public class Poo : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void FixedUpdate () {
+        if(GameState.Get().IsLeftDeck(this.transform.position)) {
+            //@TODO: , send them flying 
+            this.GetComponent<Rigidbody2D>().AddForce(Vector3.right * 50.0f * Time.fixedDeltaTime);
+        }
 	}
 
-    private void FixedUpdate()
-    {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-        for (int i = 0; i < colliders.Length; i++)
-        {
-            if (colliders[i].gameObject != gameObject)
-                m_Grounded = true;
-        }
+    public void Throw() {
+        _thrown = true;
     }
 }

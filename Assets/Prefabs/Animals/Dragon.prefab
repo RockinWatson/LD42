@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4556159405720844}
   - component: {fileID: 114176705320425962}
   - component: {fileID: 212322455031044294}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe14e1ac657e432db128a106ba79cd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooRate: 5
+  _pooRate: 10
   _pooPrefab: {fileID: 1665058962666544, guid: 21da62d22d9a041578564abae91d0afa, type: 2}
   _pooPrefabs:
   - {fileID: 1180951538198500, guid: 36ca2721fe0014c3486deb319e7b1197, type: 2}
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2047838451
-  m_SortingLayer: 6
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 15409466ac8aa41e4a6dd408e470abc5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4266384520434736}
   - component: {fileID: 114315724357531172}
   - component: {fileID: 212283131050236266}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sabertooth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55bb41d8e387e4fb89378c9506572ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooRate: 3
+  _pooRate: 6
   _pooPrefab: {fileID: 1665058962666544, guid: 21da62d22d9a041578564abae91d0afa, type: 2}
   _pooPrefabs:
   - {fileID: 1735585600344240, guid: 09ec9896f22ba47f0a92203c5daaebba, type: 2}
@@ -93,7 +93,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2047838451
-  m_SortingLayer: 6
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c956903cae42a4354b12e1b63af08cd1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
