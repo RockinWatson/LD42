@@ -10,6 +10,8 @@ public class Poo : MonoBehaviour {
         return _weight;
     }
 
+    public HoldingPin Pin { get; set; }
+
 	// Use this for initialization
 	void Start () {
 		

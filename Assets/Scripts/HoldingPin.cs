@@ -41,7 +41,13 @@ public class HoldingPin : MonoBehaviour {
         UpdateTotalPooWeight();
     }
 
-    public Poo RemovePoo() {
+    public void RemovePoo(Poo poo)
+    {
+        _poos.Remove(poo);
+        UpdateTotalPooWeight();
+    }
+
+    public Poo PopPoo() {
         Poo poo = _poos[0];
         _poos.RemoveAt(0);
         UpdateTotalPooWeight();
