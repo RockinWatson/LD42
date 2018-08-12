@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
 public class Animal : MonoBehaviour {
-
-    [Serializable]
+    
     public enum ANIMAL_TYPE {
         BAT = 0,
         CAT = 1,
@@ -30,6 +28,8 @@ public class Animal : MonoBehaviour {
 
     [SerializeField]
     private GameObject _pooPrefab = null;
+    [SerializeField]
+    private GameObject[] _pooPrefabs = null;
 
     [SerializeField]
     private uint _keepAliveScore = 10;
@@ -73,8 +73,9 @@ public class Animal : MonoBehaviour {
 
     private void TakeADump() {
         //@TODO: Generate a new poo prefab based on the animal's individual properties (weight, etc.)
-        if(_pooPrefab) {
-            GameObject pooGO = Instantiate(_pooPrefab, this.transform.position, this.transform.rotation);
+        if(_pooPrefabs.Length > 0) {
+            int index = (int)Random.Range(0, _pooPrefabs.Length);
+            GameObject pooGO = Instantiate(_pooPrefabs[index], this.transform.position, this.transform.rotation);
             Poo poo = pooGO.GetComponent<Poo>();
             _holdingPin.AddPoo(poo);
         }
@@ -86,7 +87,7 @@ public class Animal : MonoBehaviour {
     }
 }
 
-[Serializable]
+[System.Serializable]
 public class DictionaryOfAnimalPrefabs : SerializableDictionary<Animal.ANIMAL_TYPE, GameObject> { }
 
 [CustomPropertyDrawer(typeof(DictionaryOfAnimalPrefabs))]
