@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4833913657634842}
   - component: {fileID: 114672202747941566}
   - component: {fileID: 212089797062382024}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Phoenix
   m_TagString: Untagged
   m_Icon: {fileID: 0}

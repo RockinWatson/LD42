@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4837132177750484}
   - component: {fileID: 114050318013955298}
   - component: {fileID: 212086288136424274}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Llama
   m_TagString: Untagged
   m_Icon: {fileID: 0}
