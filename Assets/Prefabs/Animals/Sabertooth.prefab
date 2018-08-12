@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55bb41d8e387e4fb89378c9506572ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooRate: 1
+  _pooRate: 3
   _pooPrefab: {fileID: 1665058962666544, guid: 21da62d22d9a041578564abae91d0afa, type: 2}
   _pooPrefabs:
   - {fileID: 1735585600344240, guid: 09ec9896f22ba47f0a92203c5daaebba, type: 2}
@@ -95,7 +95,7 @@ SpriteRenderer:
   m_SortingLayerID: -2047838451
   m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9bca002f801921c49a35237a77fb289a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c956903cae42a4354b12e1b63af08cd1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

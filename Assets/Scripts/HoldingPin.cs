@@ -41,7 +41,13 @@ public class HoldingPin : MonoBehaviour {
         UpdateTotalPooWeight();
     }
 
-    public Poo RemovePoo() {
+    public void RemovePoo(Poo poo)
+    {
+        _poos.Remove(poo);
+        UpdateTotalPooWeight();
+    }
+
+    public Poo PopPoo() {
         Poo poo = _poos[0];
         _poos.RemoveAt(0);
         UpdateTotalPooWeight();
@@ -53,22 +59,22 @@ public class HoldingPin : MonoBehaviour {
         foreach (Poo poo in _poos) {
             _totalPooWeight += poo.GetWeight();
         }
-        Debug.Log("Total Poo Weight: " + _totalPooWeight);
+        //Debug.Log("Total Poo Weight: " + _totalPooWeight);
         return _totalPooWeight;
     }
 
     private void UpdatePooCapacityState() {
         if(_totalPooWeight >= _pooCapacityKill) {
             //@TODO: Start killing animals.
-            Debug.Log("WE AT POO CAPACITY!");
+            //Debug.Log("WE AT POO CAPACITY!");
             if (_killAnimalTimer >= _timeBetweenAnimalKills)
             {
-                Debug.Log("KILL TIMER REACHED!");
+                //Debug.Log("KILL TIMER REACHED!");
                 foreach (Animal animal in _animals)
                 {
                     if (animal.IsAlive())
                     {
-                        Debug.Log("KILL AN ANIMAL!");
+                        //Debug.Log("KILL AN ANIMAL!");
                         animal.Kill();
                         //@TODO: We only want to kill one at a time for a while. Setup a timer.
                         _killAnimalTimer = 0.0f;
@@ -78,7 +84,7 @@ public class HoldingPin : MonoBehaviour {
             }
             _killAnimalTimer += Time.deltaTime;
         } else {
-            Debug.Log("WE UNDER POO CAPACITY NOW!");
+            //Debug.Log("WE UNDER POO CAPACITY NOW!");
             _killAnimalTimer = 0.0f;
         }
     }

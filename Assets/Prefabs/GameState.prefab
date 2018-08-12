@@ -43,6 +43,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1299916440372628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4933904325082670}
+  m_Layer: 0
+  m_Name: Deck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1431569901416138
 GameObject:
   m_ObjectHideFlags: 1
@@ -163,6 +178,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4250910348723744}
+  - {fileID: 4933904325082670}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -237,6 +253,19 @@ Transform:
   m_Father: {fileID: 4250910348723744}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4933904325082670
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1299916440372628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.99, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134873247564406}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4978515962900362
 Transform:
   m_ObjectHideFlags: 1
@@ -261,7 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114049244352277086
 MonoBehaviour:
@@ -274,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114260525123864350
 MonoBehaviour:
@@ -287,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114434382518510212
 MonoBehaviour:
@@ -330,6 +359,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
+  _deckEdge: {fileID: 4933904325082670}
 --- !u!114 &114560970607870886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -341,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114745129974899820
 MonoBehaviour:
@@ -354,7 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114806295178730934
 MonoBehaviour:
@@ -367,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 15
+  _pooCapacityKill: 1000
   _timeBetweenAnimalKills: 10
 --- !u!114 &114910813318592912
 MonoBehaviour:

@@ -78,6 +78,7 @@ public class Animal : MonoBehaviour {
             GameObject pooGO = Instantiate(_pooPrefabs[index], this.transform.position, this.transform.rotation);
             Poo poo = pooGO.GetComponent<Poo>();
             _holdingPin.AddPoo(poo);
+            poo.Pin = _holdingPin;
         }
     }
 
