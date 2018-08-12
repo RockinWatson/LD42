@@ -26,11 +26,28 @@ public class GameState : MonoBehaviour {
     public Transform GetDeckEdge() {
         return _deckEdge;
     }
+    public bool IsAboveDeck() {
+        return (PlayerInventory.GetPlayer().transform.position.y > _deckEdge.position.y);
+    }
+    public bool IsBelowDeck()
+    {
+        return !IsAboveDeck();
+    }
+
+    static private GameState _this;
+    static public GameState Get() {
+        return _this;
+    }
 
     private bool _debugAnimalsSpawned = false;
 
-	// Use this for initialization
-	void Start () {
+    private void Awake()
+    {
+        _this = this;
+    }
+
+    // Use this for initialization
+    void Start () {
 	}
 	
 	// Update is called once per frame
