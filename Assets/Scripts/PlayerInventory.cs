@@ -43,8 +43,15 @@ public class PlayerInventory : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if(Input.GetKeyDown(KeyCode.E)) {
-            Debug.Log("PICK UP POO!!");
-            VacuumUpPoo();
+            GameState gameState = FindObjectOfType<GameState>();
+            if (gameState.GetDeckEdge().position.y >= this.transform.position.y)
+            {
+                Debug.Log("PICK UP POO!!");
+                VacuumUpPoo();
+            } else {
+                //@TODO: Throw poo
+                ThrowPoo();
+            }
         }
         UpdateVacuumList();
 	}
@@ -105,5 +112,26 @@ public class PlayerInventory : MonoBehaviour {
             }
             poo.gameObject.SetActive(false);
         }
+    }
+
+    private void ThrowPoo() {
+        //@TODO: Calculate velocity
+        Vector3 velocity = this.GetComponent<Rigidbody2D>().velocity;
+        //float speed = velocity.magnitude;
+
+        //@TODO: set object pos, Activate
+        foreach(Poo poo in _poos) {
+            poo.transform.position = this.transform.position;
+            poo.gameObject.SetActive(true);
+
+            //@TODO: , send them flying 
+            poo.GetComponent<Rigidbody2D>().AddForce(velocity * 50.0f);
+        }
+        _poos.Clear();
+    }
+
+    private void OnBecameInvisible()
+    {
+        GameObject.Destroy(this.gameObject);
     }
 }

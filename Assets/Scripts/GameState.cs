@@ -21,6 +21,12 @@ public class GameState : MonoBehaviour {
         return _animalPrefabs;
     }
 
+    [SerializeField]
+    private Transform _deckEdge = null;
+    public Transform GetDeckEdge() {
+        return _deckEdge;
+    }
+
     private bool _debugAnimalsSpawned = false;
 
 	// Use this for initialization
