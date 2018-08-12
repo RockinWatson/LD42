@@ -303,3 +303,5 @@ MonoBehaviour:
   _weightCapacity: 100
   _vacuumTime: 0.75
   _vacuumSpeed: 0.05
+  _throwForce: 250
+  _upForce: 1500

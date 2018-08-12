@@ -22,6 +22,9 @@ public class PlayerInventory : MonoBehaviour {
     [SerializeField]
     private float _throwForce = 250.0f;
 
+    [SerializeField]
+    private float _upForce = 1500.0f;
+
     private List<Poo> _poos = null;
     //private Dictionary<Poo, float> _vacuumList = null;
 
@@ -142,7 +145,7 @@ public class PlayerInventory : MonoBehaviour {
 
             //@TODO: , send them flying 
             poo.GetComponent<Rigidbody2D>().AddForce(forceDir * _throwForce);
-            poo.GetComponent<Rigidbody2D>().AddForce(Vector3.up * _throwForce);
+            poo.GetComponent<Rigidbody2D>().AddForce(Vector3.up * _upForce);
         }
         _poos.Clear();
     }
