@@ -54,7 +54,7 @@ public class Animal : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	virtual public void Update () {
         if(IsAlive()) {
             //@TODO: Do alive behavior.
             UpdatePoo();
@@ -68,6 +68,7 @@ public class Animal : MonoBehaviour {
             TakeADump();
             _pooTimer = 0.0f;
         }
+        _pooTimer += Time.deltaTime;
     }
 
     private void TakeADump() {

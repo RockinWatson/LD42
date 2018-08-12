@@ -53,24 +53,32 @@ public class HoldingPin : MonoBehaviour {
         foreach (Poo poo in _poos) {
             _totalPooWeight += poo.GetWeight();
         }
+        Debug.Log("Total Poo Weight: " + _totalPooWeight);
         return _totalPooWeight;
     }
 
     private void UpdatePooCapacityState() {
         if(_totalPooWeight >= _pooCapacityKill) {
             //@TODO: Start killing animals.
+            Debug.Log("WE AT POO CAPACITY!");
             if (_killAnimalTimer >= _timeBetweenAnimalKills)
             {
+                Debug.Log("KILL TIMER REACHED!");
                 foreach (Animal animal in _animals)
                 {
-                    animal.Kill();
-                    //@TODO: We only want to kill one at a time for a while. Setup a timer.
-                    _killAnimalTimer = 0.0f;
-                    break;
+                    if (animal.IsAlive())
+                    {
+                        Debug.Log("KILL AN ANIMAL!");
+                        animal.Kill();
+                        //@TODO: We only want to kill one at a time for a while. Setup a timer.
+                        _killAnimalTimer = 0.0f;
+                        break;
+                    }
                 }
             }
             _killAnimalTimer += Time.deltaTime;
         } else {
+            Debug.Log("WE UNDER POO CAPACITY NOW!");
             _killAnimalTimer = 0.0f;
         }
     }
@@ -88,6 +96,7 @@ public class HoldingPin : MonoBehaviour {
 
         //@TODO: Assign them to our animals list.
         _animals.Add(animal);
+        animal.SetHoldingPin(this);
     }
 
     public void AddAnimalPair(Animal.ANIMAL_TYPE type)
