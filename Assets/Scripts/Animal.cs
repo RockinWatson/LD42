@@ -84,6 +84,8 @@ public class Animal : MonoBehaviour {
     public void Kill() {
         //@TODO: Kill the animal, set animation to death state, etc.
         _isDead = true;
+        SpriteRenderer sprite = this.GetComponent<SpriteRenderer>();
+        sprite.color = new Color(0.0f, 0.0f, 0.0f, 1.0f);
     }
 }
 
