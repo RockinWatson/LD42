@@ -31,9 +31,10 @@ public class Poo : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        if(GameState.Get().IsLeftDeck(this.transform.position)) {
+        if(_thrown) {
+            float direction = GameState.Get().IsLeftDeck(this.transform.position) ? -1.0f : 1.0f;
             //@TODO: , send them flying 
-            this.GetComponent<Rigidbody2D>().AddForce(Vector3.right * 50.0f * Time.fixedDeltaTime);
+            this.GetComponent<Rigidbody2D>().AddForce(Vector3.right * 5000.0f * Time.fixedDeltaTime * direction);
         }
 	}
 
