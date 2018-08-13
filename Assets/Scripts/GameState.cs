@@ -141,4 +141,36 @@ public class GameState : MonoBehaviour {
         }
         _debugAnimalsSpawned = true;
     }
+
+    private void SpawnAnimals(List<Animal.ANIMAL_TYPE> AnimalPenDic)
+    {
+        List<Animal.ANIMAL_TYPE> animalTypesPicked = new List<Animal.ANIMAL_TYPE>();
+        HoldingPin[] pins = _pinMgr.GetPins();
+
+        List<Animal.ANIMAL_TYPE> typesSelected = new List<Animal.ANIMAL_TYPE>();
+
+        foreach (var animal in AnimalPenDic)
+        {
+            typesSelected.Add(animal);
+        }
+
+        foreach (HoldingPin pin in pins)
+        {
+            bool indexFound = false;
+            while (!indexFound)
+            {
+                foreach (var type in typesSelected)
+                {
+                    int index = (int)type;
+                    Animal.ANIMAL_TYPE animalType = (Animal.ANIMAL_TYPE)index;
+                    if (!animalTypesPicked.Contains(animalType))
+                    {
+                        indexFound = true;
+                        animalTypesPicked.Add(animalType);
+                        pin.AddAnimalPair(animalType);
+                    }
+                }
+            }
+        }
+    }
 }

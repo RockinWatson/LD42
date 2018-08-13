@@ -51,3 +51,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4877d9ed29e1c744a396f6b58309cc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animalPosOne: {fileID: 1673636778951150, guid: 983a6d4c9f1a93f48a9a90e9385a72bd,
+    type: 2}
+  _animalPosTwo: {fileID: 1095764080911028, guid: 91d838ba8afec1f4e879657359ea0766,
+    type: 2}
+  _animalPrefabs:
+    _Buckets: 0b0000000a00000009000000080000000700000006000000050000000400000003000000020000000100000000000000ffffffffffffffffffffffffffffffffffffffff
+    _HashCodes: 0b0000000a000000090000000800000007000000060000000500000004000000030000000200000001000000000000000000000000000000000000000000000000000000
+    _Next: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000
+    _Count: 12
+    _Version: 60
+    _FreeList: -1
+    _FreeCount: 0
+    _Keys: 0b0000000a000000090000000800000007000000060000000500000004000000030000000200000001000000000000000000000000000000000000000000000000000000
+    _Values:
+    - {fileID: 1635482288304446, guid: ca86259abbd04413f83676a488f84794, type: 2}
+    - {fileID: 1808208886207352, guid: 0bf2d10b33dfa439ea7aab764278d36f, type: 2}
+    - {fileID: 1918562187335110, guid: 5ea2fee09a0334145bd949cd4ff50427, type: 2}
+    - {fileID: 1105787442143014, guid: 83f43d16f9e184beaa5414f6634f2f96, type: 2}
+    - {fileID: 1668534505848664, guid: ad8dd9e9c03634c0c89c9c32b4aabbf1, type: 2}
+    - {fileID: 1668067909785902, guid: ad496c339ab9f45e890b8969812c50c1, type: 2}
+    - {fileID: 1182018635401740, guid: fe4d7b263896a41f2af7f9e4b9765c8c, type: 2}
+    - {fileID: 1591347827704476, guid: b73f05c3eb50e49b39ae34b145a76c08, type: 2}
+    - {fileID: 1315523091153696, guid: a71c55b5793cd48378d7bed8ac15db47, type: 2}
+    - {fileID: 1561318687254800, guid: 11fa62d6db084425c97b6a7373900460, type: 2}
+    - {fileID: 1414029593110728, guid: 2a6b361f1a602401fbd29bd7d7aa7ad4, type: 2}
+    - {fileID: 1732045654266080, guid: 208ba8cdd692b477eac504050d10f7dc, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
