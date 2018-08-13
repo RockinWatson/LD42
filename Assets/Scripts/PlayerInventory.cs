@@ -76,7 +76,7 @@ public class PlayerInventory : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.E)) {
             if (GameState.Get().IsBelowDeck(_tray.position))
             {
-                Debug.Log("PICK UP POO!!");
+                //Debug.Log("PICK UP POO!!");
                 VacuumUpPoo();
             } else {
                 //@TODO: Throw poo
@@ -90,12 +90,12 @@ public class PlayerInventory : MonoBehaviour {
         Collider2D[] colliders;
         colliders = Physics2D.OverlapCircleAll(_tray.position, _pickUpRadius);
         if(colliders.Length > 0) {
-            Debug.Log("FOUND SOME SHIT!");
+            //Debug.Log("FOUND SOME SHIT!");
         }
         for (int i = 0; i <= colliders.Length- 1; ++i) {
             Poo poo = colliders[i].gameObject.GetComponent<Poo>();
             if(poo) {
-                Debug.Log("GETTIN POO HITS!!");
+                //Debug.Log("GETTIN POO HITS!!");
                 float pooWeight = poo.GetWeight();
                 if(_weightCapacity - _totalWeight - pooWeight >= 0) {
                     AddPoo(poo);
