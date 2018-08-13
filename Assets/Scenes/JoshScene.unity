@@ -2912,6 +2912,10 @@ Prefab:
       propertyPath: m_Name
       value: Noah
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 04e38d5bf51979e4088a5734c59689a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
   m_IsPrefabAsset: 0
