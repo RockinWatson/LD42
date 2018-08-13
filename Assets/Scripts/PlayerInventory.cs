@@ -133,13 +133,19 @@ public class PlayerInventory : MonoBehaviour {
 
     private void UpdateVacuumList() {
         List<Poo> removeList = new List<Poo>();
-        for (int i = 0; i < _vacuumList.Count - 1; ++i) {
+        for (int i = 0; i < _vacuumList.Count - 1; ++i) {   
             Poo poo = _vacuumList[i];
-            Vector3 pos = poo.transform.position;
-            poo.transform.position = Vector3.MoveTowards(pos, poo.transform.position, _vacuumSpeed * Time.fixedDeltaTime);
-            //poo.transform.position = Vector3.Lerp(pos, this.transform.position, 0.5f);
-            if(Mathf.Epsilon >= (poo.transform.position - pos).sqrMagnitude) {
-                _poos.Add(poo);
+            if (poo)
+            {
+                Vector3 pos = poo.transform.position;
+                poo.transform.position = Vector3.MoveTowards(pos, poo.transform.position, _vacuumSpeed * Time.fixedDeltaTime);
+                //poo.transform.position = Vector3.Lerp(pos, this.transform.position, 0.5f);
+                if (Mathf.Epsilon >= (poo.transform.position - pos).sqrMagnitude)
+                {
+                    _poos.Add(poo);
+                    removeList.Add(poo);
+                }
+            } else {
                 removeList.Add(poo);
             }
         }
