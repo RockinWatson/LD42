@@ -116,6 +116,7 @@ public class PlayerInventory : MonoBehaviour {
         //if (!_vacuumList.Contains(poo))
         if(!HasPoo(poo))
         {
+            SoundController.pickup.Play();
             _vacuumList.Add(poo);
             UpdateTotalWeight();
         }
@@ -180,6 +181,7 @@ public class PlayerInventory : MonoBehaviour {
             poo.GetComponent<Rigidbody2D>().AddForce(Vector3.up * _upForce);
         }
         _poos.Clear();
+        SoundController.toss.Play();
         UpdateTotalWeight();
     }
 
