@@ -29,8 +29,16 @@ public class GameState : MonoBehaviour {
     public Transform GetDeckEdge() {
         return _deckEdge;
     }
+    public bool IsAboveDeck(Vector3 pos)
+    {
+        return (pos.y > _deckEdge.position.y);
+    }
     public bool IsAboveDeck() {
-        return (PlayerInventory.GetPlayer().transform.position.y > _deckEdge.position.y);
+        return IsAboveDeck(PlayerInventory.GetPlayer().transform.position);
+    }
+    public bool IsBelowDeck(Vector3 pos)
+    {
+        return !IsAboveDeck(pos);
     }
     public bool IsBelowDeck()
     {
