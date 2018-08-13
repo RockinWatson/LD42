@@ -17,9 +17,6 @@ public class PlayerInventory : MonoBehaviour {
     }
 
     [SerializeField]
-    private float _vacuumTime = 0.75f;
-
-    [SerializeField]
     private float _vacuumSpeed = 0.05f;
 
     [SerializeField]
@@ -29,10 +26,7 @@ public class PlayerInventory : MonoBehaviour {
     private float _upForce = 1500.0f;
 
     private List<Poo> _poos = null;
-    //private Dictionary<Poo, float> _vacuumList = null;
-
     private List<Poo> _vacuumList = null;
-    //private List<VacuumItem> _vacuumList null;
 
     static private PlayerInventory _this;
     static public PlayerInventory GetPlayer() {
@@ -64,7 +58,6 @@ public class PlayerInventory : MonoBehaviour {
     {
         _this = this;
         _poos = new List<Poo>();
-        //_vacuumList = new Dictionary<Poo, float>();
         _vacuumList = new List<Poo>();
     }
 
@@ -113,22 +106,11 @@ public class PlayerInventory : MonoBehaviour {
     }
 
     private void AddPoo(Poo poo) {
-        //if (!_vacuumList.Contains(poo))
         if(!HasPoo(poo))
         {
             SoundController.pickup.Play();
             _vacuumList.Add(poo);
             UpdateTotalWeight();
-        }
-        //_vacuumList.Add(new VacuumItem(poo, _vacuumTime));
-    }
-
-    class VacuumItem {
-        public Poo poo;
-        public float vacuumTime;
-        public VacuumItem(Poo shit, float time) {
-            poo = shit;
-            vacuumTime = time;
         }
     }
 
@@ -157,7 +139,6 @@ public class PlayerInventory : MonoBehaviour {
             {
                 poo.Pin.RemovePoo(poo);
             }
-            //poo.gameObject.SetActive(false);
         }
     }
 
@@ -199,10 +180,5 @@ public class PlayerInventory : MonoBehaviour {
                 poo.transform.position = Vector3.Lerp(trayBase, pileTop, i / (float)pooCount);
             }
         }
-    }
-
-    private void OnBecameInvisible()
-    {
-        //GameObject.Destroy(this.gameObject);
     }
 }
