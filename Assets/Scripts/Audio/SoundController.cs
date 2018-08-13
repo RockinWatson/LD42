@@ -26,6 +26,7 @@ public class SoundController : MonoBehaviour {
     //public AudioLowPassFilter lowPass;
     float startVolume = .7f;
     float sfxVolume = .6f;
+    float poopVolume = .45f;
     float cutOff = 500;
 
     // Use this for initialization
@@ -72,6 +73,14 @@ public class SoundController : MonoBehaviour {
         ambience.loop = true;
         ambience.volume = startVolume;
         ambience.Play();
+        poop1.volume = sfxVolume;
+        poop2.volume = poopVolume;
+        poop3.volume = poopVolume;
+        poop4.volume = poopVolume;
+        poop5.volume = poopVolume;
+        poop6.volume = poopVolume;
+        poop7.volume = poopVolume;
+        poop8.volume = poopVolume;
     }
 
     private void ChoosePoop()
