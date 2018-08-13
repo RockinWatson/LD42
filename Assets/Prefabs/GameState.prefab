@@ -962,7 +962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 250
+  _pooCapacityKill: 350
   _timeBetweenAnimalKills: 10
   _warning: {fileID: 114047673016943170}
 --- !u!114 &114047673016943170
@@ -988,7 +988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 250
+  _pooCapacityKill: 350
   _timeBetweenAnimalKills: 10
   _warning: {fileID: 114106973532815448}
 --- !u!114 &114106973532815448
@@ -1038,7 +1038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 250
+  _pooCapacityKill: 350
   _timeBetweenAnimalKills: 10
   _warning: {fileID: 114202868135228702}
 --- !u!114 &114390174690982986
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33a45bf74e08430ba54e4e70cc3661a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timePerDay: 3
+  _timePerDay: 1.5
   _totalDays: 110
   _daysText: {fileID: 102671607414345106}
   _pinMgr: {fileID: 114910813318592912}
@@ -1109,7 +1109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 250
+  _pooCapacityKill: 350
   _timeBetweenAnimalKills: 10
   _warning: {fileID: 114858684337320586}
 --- !u!114 &114744848083152300
@@ -1136,7 +1136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 250
+  _pooCapacityKill: 350
   _timeBetweenAnimalKills: 10
   _warning: {fileID: 114225410346423000}
 --- !u!114 &114806295178730934
@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789811b8411f94e8a86d207cc432578b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pooCapacityKill: 250
+  _pooCapacityKill: 350
   _timeBetweenAnimalKills: 10
   _warning: {fileID: 114390174690982986}
 --- !u!114 &114858684337320586
