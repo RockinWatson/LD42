@@ -161,7 +161,7 @@ public class PlayerInventory : MonoBehaviour {
             poo.GetComponent<Rigidbody2D>().AddForce(Vector3.up * _upForce);
         }
         _poos.Clear();
-        SoundController.toss.Play();
+        //SoundController.toss.Play();
         UpdateTotalWeight();
     }
 
