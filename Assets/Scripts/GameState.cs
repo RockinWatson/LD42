@@ -61,6 +61,9 @@ public class GameState : MonoBehaviour {
     [SerializeField]
     private TextMesh _scoreText = null;
 
+    [SerializeField]
+    private TextMesh _loadText = null;
+
     static private GameState _this;
     static public GameState Get() {
         return _this;
@@ -85,6 +88,7 @@ public class GameState : MonoBehaviour {
         //    StartNewDay();
         //}
         UpdateScoreText();
+        UpdateLoadText();
         UpdateDaysLeft();
 	}
 
@@ -94,6 +98,14 @@ public class GameState : MonoBehaviour {
 
     private void UpdateScoreText() {
         _scoreText.text = "Score: " + _score;
+    }
+
+    private void UpdateLoadText()
+    {
+        PlayerInventory inventory = PlayerInventory.GetPlayer();
+        int weight = (int)inventory.GetTotalWeight();
+        int capacity = (int)inventory.GetWeightCapacity();
+        _loadText.text = "Load: " + weight + " / " + capacity;
     }
 
     private void UpdateDaysLeft()

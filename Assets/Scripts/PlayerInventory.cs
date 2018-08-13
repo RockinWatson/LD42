@@ -12,6 +12,9 @@ public class PlayerInventory : MonoBehaviour {
 
     [SerializeField]
     private float _weightCapacity = 100.0f;
+    public float GetWeightCapacity() {
+        return _weightCapacity;
+    }
 
     [SerializeField]
     private float _vacuumTime = 0.75f;
@@ -42,7 +45,7 @@ public class PlayerInventory : MonoBehaviour {
     }
 
 	private float _totalWeight = 0.0f;
-	float GetTotalWeight()
+	public float GetTotalWeight()
 	{
 		return _totalWeight;
 	}
