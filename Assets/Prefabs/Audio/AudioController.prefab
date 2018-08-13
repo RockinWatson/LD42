@@ -1169,7 +1169,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ce97b1d26342552438cf70d3a048fd41, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1373,14 +1373,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ambience: {fileID: 82810264854065374}
-  poop1: {fileID: 82744140224313354}
-  poop2: {fileID: 82076031351390650}
-  poop3: {fileID: 82366384755094692}
-  poop4: {fileID: 82724714345957312}
-  poop5: {fileID: 82963089565213914}
-  poop6: {fileID: 82473741249234816}
-  poop7: {fileID: 82777478156197990}
-  poop8: {fileID: 82187656604776992}
 --- !u!169 &169772813850536852
 AudioLowPassFilter:
   m_ObjectHideFlags: 1

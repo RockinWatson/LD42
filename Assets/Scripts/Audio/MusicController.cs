@@ -6,7 +6,7 @@ public class MusicController : MonoBehaviour {
 
     public AudioSource music;
     public AudioLowPassFilter lowPass;
-    float cutOff = 500;
+    float cutOff = 850;
 
 	// Use this for initialization
 	void Awake () {
