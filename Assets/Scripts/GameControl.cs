@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts
 {
@@ -7,7 +8,8 @@ namespace Assets.Scripts
     {
         public static GameControl control;
 
-        public Dictionary<int, ANIMAL_TYPE> PenInfo = new Dictionary<int, ANIMAL_TYPE>(); 
+        public static Dictionary<int, Animal.ANIMAL_TYPE> PenInfo = new Dictionary<int, Animal.ANIMAL_TYPE>();
+        public static Dictionary<int, Animal.ANIMAL_TYPE> KillList = new Dictionary<int, Animal.ANIMAL_TYPE>();
 
         private void Awake()
         {
@@ -22,52 +24,67 @@ namespace Assets.Scripts
             }
         }
 
+        private void Update()
+        {
+            var currentScene = SceneManager.GetActiveScene();
+            var sceneName = currentScene.name;
+            if (sceneName == "Pen1Select")
+            {
+                //Todo Display Two Random Animals
+                //Add to Dict
+                //Add to KillList
+            }
+            else if (sceneName == "Pen2Select")
+            {
+                //Todo Display Two Random Animals
+            }
+            else if (sceneName == "Pen3Select")
+            {
+                //Todo Display Two Random Animals
+            }
+            else if (sceneName == "Pen4Select")
+            {
+                //Todo Display Two Random Animals
+            }
+            else if (sceneName == "Pen5Select")
+            {
+                //Todo Display Two Random Animals
+            }
+            else if (sceneName == "Pen6Select")
+            {
+                //Todo Display Two Random Animals
+            }
+        }
+
         public void GetRandomTwoAnimals()
         {
 
         }
 
-        public void AddToPenOne(int pen, ANIMAL_TYPE animal)
+        public void AddToPenOne(int pen, Animal.ANIMAL_TYPE animal)
         {
-
+            PenInfo.Add(0, animal);
         }
-        public void AddToPenTwo(int pen, ANIMAL_TYPE animal)
+        public void AddToPenTwo(int pen, Animal.ANIMAL_TYPE animal)
         {
-
+            PenInfo.Add(1, animal);
         }
-        public void AddToPenThree(int pen, ANIMAL_TYPE animal)
+        public void AddToPenThree(int pen, Animal.ANIMAL_TYPE animal)
         {
-
+            PenInfo.Add(2, animal);
         }
-        public void AddToPenFour(int pen, ANIMAL_TYPE animal)
+        public void AddToPenFour(int pen, Animal.ANIMAL_TYPE animal)
         {
-
+            PenInfo.Add(3, animal);
         }
-        public void AddToPenFive(int pen, ANIMAL_TYPE animal)
+        public void AddToPenFive(int pen, Animal.ANIMAL_TYPE animal)
         {
-
+            PenInfo.Add(4, animal);
         }
-        public void AddToPenSix(int pen, ANIMAL_TYPE animal)
+        public void AddToPenSix(int pen, Animal.ANIMAL_TYPE animal)
         {
-
+            PenInfo.Add(5, animal);
         }
-
-        public enum ANIMAL_TYPE
-        {
-            BAT = 0,
-            CAT = 1,
-            DOG = 2,
-            DRAGON = 3,
-            GOOSE = 4,
-            GRIFFIN = 5,
-            LLAMA = 6,
-            PENGUIN = 7,
-            PHOENIX = 8,
-            RABBIT = 9,
-            SABERTOOTH = 10,
-            UNICORN = 11,
-            COUNT,
-        };
 
     }
 }

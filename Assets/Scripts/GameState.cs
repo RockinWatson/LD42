@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Scripts;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -58,6 +59,7 @@ public class GameState : MonoBehaviour {
     private void Awake()
     {
         _this = this;
+        SpawnAnimals(GameControl.PenInfo);
     }
 
     // Use this for initialization
@@ -66,7 +68,7 @@ public class GameState : MonoBehaviour {
 	
 	// Update is called once per frame
 	private void Update () {
-        DebugPlayerInput();
+        //DebugPlayerInput();
         _currentTime += Time.deltaTime;
         if(_currentTime >= _timePerDay) {
             StartNewDay();
@@ -77,30 +79,62 @@ public class GameState : MonoBehaviour {
         _currentTime = 0.0f;
     }
 
-    private void DebugPlayerInput() {
-        if(Input.GetKeyDown(KeyCode.Return) && !_debugAnimalsSpawned) {
-            Debug.Log("SPAWN SOME ANIMALS!!!");
-            DebugSpawnAnimals();
-        }
-    }
+    //private void DebugPlayerInput() {
+    //    if(Input.GetKeyDown(KeyCode.Return) && !_debugAnimalsSpawned) {
+    //        Debug.Log("SPAWN SOME ANIMALS!!!");
+    //        DebugSpawnAnimals();
+    //    }
+    //}
 
-    private void DebugSpawnAnimals() {
+    //private void DebugSpawnAnimals() {
+    //    List<Animal.ANIMAL_TYPE> animalTypesPicked = new List<Animal.ANIMAL_TYPE>();
+    //    HoldingPin[] pins = _pinMgr.GetPins();
+    //    foreach(HoldingPin pin in pins) {
+    //        //@TODO: Pick random animal
+    //        bool indexFound = false;
+    //        while (!indexFound)
+    //        {
+    //            int index = Random.Range(0, (int)Animal.ANIMAL_TYPE.COUNT);
+    //            Animal.ANIMAL_TYPE animalType = (Animal.ANIMAL_TYPE)index;
+    //            if(!animalTypesPicked.Contains(animalType)) {
+    //                indexFound = true;
+    //                animalTypesPicked.Add(animalType);
+    //                pin.AddAnimalPair(animalType);
+    //            }
+    //        }
+    //    }
+    //    _debugAnimalsSpawned = true;
+    //}
+
+    private void SpawnAnimals(Dictionary<int, Animal.ANIMAL_TYPE> AnimalPenDic)
+    {
         List<Animal.ANIMAL_TYPE> animalTypesPicked = new List<Animal.ANIMAL_TYPE>();
         HoldingPin[] pins = _pinMgr.GetPins();
-        foreach(HoldingPin pin in pins) {
-            //@TODO: Pick random animal
+
+        List<Animal.ANIMAL_TYPE> typesSelected = new List<Animal.ANIMAL_TYPE>();
+
+        foreach (KeyValuePair<int, Animal.ANIMAL_TYPE> entry in AnimalPenDic)
+        {
+            typesSelected.Add(entry.Value);
+        }
+
+        foreach (HoldingPin pin in pins)
+        {
             bool indexFound = false;
             while (!indexFound)
             {
-                int index = Random.Range(0, (int)Animal.ANIMAL_TYPE.COUNT);
-                Animal.ANIMAL_TYPE animalType = (Animal.ANIMAL_TYPE)index;
-                if(!animalTypesPicked.Contains(animalType)) {
-                    indexFound = true;
-                    animalTypesPicked.Add(animalType);
-                    pin.AddAnimalPair(animalType);
+                foreach (var type in typesSelected)
+                {
+                    int index = (int)type;
+                    Animal.ANIMAL_TYPE animalType = (Animal.ANIMAL_TYPE)index;
+                    if (!animalTypesPicked.Contains(animalType))
+                    {
+                        indexFound = true;
+                        animalTypesPicked.Add(animalType);
+                        pin.AddAnimalPair(animalType);
+                    }
                 }
             }
         }
-        _debugAnimalsSpawned = true;
     }
 }
