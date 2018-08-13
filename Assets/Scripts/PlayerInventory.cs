@@ -70,8 +70,13 @@ public class PlayerInventory : MonoBehaviour {
 		_totalWeight = 0.0f;
 	}
 
-	// Update is called once per frame
-	void FixedUpdate () {
+    private void Update()
+    {
+        UpdatePooPos();
+    }
+
+    // Update is called once per frame
+    void FixedUpdate () {
         if(Input.GetKeyDown(KeyCode.E)) {
             GameState gameState = FindObjectOfType<GameState>();
             if (gameState.GetDeckEdge().position.y >= _tray.position.y)
@@ -142,7 +147,7 @@ public class PlayerInventory : MonoBehaviour {
             {
                 poo.Pin.RemovePoo(poo);
             }
-            poo.gameObject.SetActive(false);
+            //poo.gameObject.SetActive(false);
         }
     }
 
@@ -157,6 +162,7 @@ public class PlayerInventory : MonoBehaviour {
         //@TODO: set object pos, Activate
         foreach(Poo poo in _poos) {
             poo.transform.position = _tray.position;
+            poo.transform.localScale = Vector3.one;
             poo.gameObject.SetActive(true);
             poo.Throw();
 
@@ -166,6 +172,22 @@ public class PlayerInventory : MonoBehaviour {
         }
         _poos.Clear();
         UpdateTotalWeight();
+    }
+
+    private void UpdatePooPos() {
+        int pooCount = _poos.Count;
+        if (pooCount > 0)
+        {
+            const float pileHeight = 1.0f;
+            Vector3 trayBase = _tray.transform.position;
+            Vector3 pileTop = trayBase + (_tray.up * pileHeight);
+            for (int i = 0; i < pooCount; ++i)
+            {
+                Poo poo = _poos[i];
+                poo.transform.localScale = Vector3.one * 0.6f;
+                poo.transform.position = Vector3.Lerp(trayBase, pileTop, i / (float)pooCount);
+            }
+        }
     }
 
     private void OnBecameInvisible()
