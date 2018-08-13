@@ -89,6 +89,11 @@ public class HoldingPin : MonoBehaviour {
         }
     }
 
+    private Vector3 GetNewAnimalSpawnPos() {
+        const float randomEdge = 1.0f;
+        return this.transform.position + Vector3.right * Random.Range(-1.0f, 1.0f) * randomEdge;
+    }
+
     public void AddAnimal(Animal.ANIMAL_TYPE type)
     {
         //@TODO: Retrieve appropriate prefab for animal type.
@@ -97,7 +102,7 @@ public class HoldingPin : MonoBehaviour {
         GameObject prefab = prefabDict[type];
         
         //@TODO: Generate the animal prefabs.
-        GameObject animalGO = Instantiate(prefab, this.transform.position, this.transform.rotation);
+        GameObject animalGO = Instantiate(prefab, GetNewAnimalSpawnPos(), this.transform.rotation);
         Animal animal = animalGO.GetComponent<Animal>();
 
         //@TODO: Assign them to our animals list.
