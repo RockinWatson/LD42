@@ -338,8 +338,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tray: {fileID: 4462975524648058}
   _pickUpRadius: 1
-  _weightCapacity: 100
+  _weightCapacity: 150
   _vacuumTime: 0.75
   _vacuumSpeed: 0.05
   _throwForce: 250
-  _upForce: 1500
+  _upForce: 2500
