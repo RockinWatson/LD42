@@ -49,7 +49,8 @@ public class Animal : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        SpriteRenderer sprite = this.GetComponent<SpriteRenderer>();
+        sprite.color = new Color(Random.Range(0.5f, 1.0f), Random.Range(0.5f, 1.0f), Random.Range(0.5f, 1.0f), 1.0f);
 	}
 	
 	// Update is called once per frame
