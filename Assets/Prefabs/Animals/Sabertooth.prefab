@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4266384520434736}
   - component: {fileID: 114315724357531172}
   - component: {fileID: 212283131050236266}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Sabertooth
   m_TagString: Untagged
   m_Icon: {fileID: 0}

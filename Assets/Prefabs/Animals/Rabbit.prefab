@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4109399689943122}
   - component: {fileID: 114118683550063430}
   - component: {fileID: 212949347094610164}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Rabbit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
