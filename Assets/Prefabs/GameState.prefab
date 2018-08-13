@@ -949,7 +949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17fded4ec87df50409d125958d345288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingLayerName: 6
+  sortingLayerName: 4
   sortingOrder: 0
 --- !u!114 &114024196187393232
 MonoBehaviour:
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17fded4ec87df50409d125958d345288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingLayerName: 6
+  sortingLayerName: 4
   sortingOrder: 0
 --- !u!114 &114745129974899820
 MonoBehaviour:
@@ -1194,7 +1194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17fded4ec87df50409d125958d345288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingLayerName: 6
+  sortingLayerName: 4
   sortingOrder: 0
 --- !u!212 &212040037365464098
 SpriteRenderer:

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameState : MonoBehaviour {
 
@@ -72,6 +73,8 @@ public class GameState : MonoBehaviour {
     [SerializeField]
     private TextMesh _loadText = null;
 
+    private int _dayActual;
+
     static private GameState _this;
     static public GameState Get() {
         return _this;
@@ -86,14 +89,19 @@ public class GameState : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-	}
+        DebugSpawnAnimals();
+    }
 	
 	// Update is called once per frame
-    private void Update () {
-        DebugPlayerInput();
+    private void Update () {       
+        //DebugPlayerInput();
         UpdateScoreText();
         UpdateLoadText();
         UpdateDaysLeft();
+        if (_dayActual <= 0)
+        {
+            SceneManager.LoadScene("End01");
+        }
 	}
 
     private void UpdateScoreText() {
@@ -112,15 +120,16 @@ public class GameState : MonoBehaviour {
     {
         _dayTimer += Time.deltaTime;
         _currentDay = (int)(_dayTimer / _timePerDay);
-        _daysText.text = "Days Left: " + (_totalDays - _currentDay);
+        _dayActual = _totalDays - _currentDay;
+        _daysText.text = "Days Left: " + (_dayActual);
     }
 
-    private void DebugPlayerInput() {
-        if(Input.GetKeyDown(KeyCode.Return) && !_debugAnimalsSpawned) {
-            Debug.Log("SPAWN SOME ANIMALS!!!");
-            DebugSpawnAnimals();
-        }
-    }
+    //private void DebugPlayerInput() {
+    //    if(Input.GetKeyDown(KeyCode.Return) && !_debugAnimalsSpawned) {
+    //        Debug.Log("SPAWN SOME ANIMALS!!!");
+    //        DebugSpawnAnimals();
+    //    }
+    //}
 
     private void DebugSpawnAnimals() {
         List<Animal.ANIMAL_TYPE> animalTypesPicked = new List<Animal.ANIMAL_TYPE>();
@@ -172,5 +181,10 @@ public class GameState : MonoBehaviour {
                 }
             }
         }
+    }
+
+    private void OnDisable()
+    {
+        PlayerPrefs.SetInt("highscore", _score);
     }
 }
