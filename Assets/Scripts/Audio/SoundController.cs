@@ -6,7 +6,11 @@ public class SoundController : MonoBehaviour {
 
 
     public AudioSource ambience;
-    public AudioLowPassFilter lowPass;
+    public static AudioSource jump;
+    public static AudioSource pickup;
+    public static AudioSource toss;
+
+    //public AudioLowPassFilter lowPass;
     float startVolume = .7f;
     float cutOff = 500;
 
@@ -18,30 +22,22 @@ public class SoundController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (GameState.Get().IsAboveDeck())
-        {
-            //ambience.mute = false;
-            lowPass.enabled = false;
-        }
-        else
-        {
-            //ambience.mute = true;
-            lowPass.enabled = true;
-        }
 
 	}
 
     private void InitAudio()
     {
         AudioSource[] audio = GetComponents<AudioSource>();
-        AudioLowPassFilter lowPass = GetComponent<AudioLowPassFilter>();
         ambience = audio[0];
+        jump = audio[1];
+        pickup = audio[2];
+        toss = audio[3];
+
         //ambience.mute = true;
         ambience.loop = true;
         ambience.volume = startVolume;
         ambience.Play();
 
-        lowPass.enabled = false;
-        lowPass.cutoffFrequency = cutOff;
+
     }
 }
