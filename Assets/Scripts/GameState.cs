@@ -91,18 +91,10 @@ public class GameState : MonoBehaviour {
 	// Update is called once per frame
     private void Update () {
         DebugPlayerInput();
-        //_currentTime += Time.deltaTime;
-        //if(_currentTime >= _timePerDay) {
-        //    StartNewDay();
-        //}
         UpdateScoreText();
         UpdateLoadText();
         UpdateDaysLeft();
 	}
-
-    //private void StartNewDay() {
-    //    _currentTime = 0.0f;
-    //}
 
     private void UpdateScoreText() {
         _scoreText.text = "Score: " + _score;
