@@ -36,6 +36,11 @@ public class PlayerInventory : MonoBehaviour {
         return _this;
     }
 
+    public bool HasPoo(Poo poo)
+    {
+        return (_poos.Contains(poo) || _vacuumList.Contains(poo));
+    }
+
 	private float _totalWeight = 0.0f;
 	float GetTotalWeight()
 	{
@@ -90,7 +95,8 @@ public class PlayerInventory : MonoBehaviour {
     }
 
     private void AddPoo(Poo poo) {
-        if (!_vacuumList.Contains(poo))
+        //if (!_vacuumList.Contains(poo))
+        if(!HasPoo(poo))
         {
             _vacuumList.Add(poo);
         }
