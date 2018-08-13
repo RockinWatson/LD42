@@ -100,5 +100,7 @@ public class Animal : MonoBehaviour {
 [System.Serializable]
 public class DictionaryOfAnimalPrefabs : SerializableDictionary<Animal.ANIMAL_TYPE, GameObject> { }
 
+#if UNITY_EDITOR
 [CustomPropertyDrawer(typeof(DictionaryOfAnimalPrefabs))]
 public class MyDictionaryDrawer2 : DictionaryDrawer<Animal.ANIMAL_TYPE, GameObject> { }
+#endif

@@ -99,8 +99,10 @@ namespace Assets.Scripts
         [Serializable]
         public class DictionaryOfAnimalPrefabs : SerializableDictionary<ANIMAL_TYPE, GameObject> { }
 
+        #if UNITY_EDITOR
         [CustomPropertyDrawer(typeof(DictionaryOfAnimalPrefabs))]
         public class MyDictionaryDrawer2 : DictionaryDrawer<ANIMAL_TYPE, GameObject> { }
+        #endif
 
         public enum ANIMAL_TYPE
         {
