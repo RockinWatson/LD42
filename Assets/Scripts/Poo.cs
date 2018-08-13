@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Poo : MonoBehaviour {
+public class Poo : MonoBehaviour, IComparable<Poo> {
 
     [SerializeField]
     private float _weight = 1.0f;
@@ -49,5 +50,9 @@ public class Poo : MonoBehaviour {
             GameState.Get().AddScore((int)_weight);
             GameObject.Destroy(this.gameObject);
         }
+    }
+
+    public int CompareTo(Poo other) {
+        return (int)(other._weight - this._weight);
     }
 }
