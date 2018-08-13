@@ -78,7 +78,10 @@ public class Animal : MonoBehaviour {
         //@TODO: Generate a new poo prefab based on the animal's individual properties (weight, etc.)
         if(_pooPrefabs.Length > 0) {
             int index = (int)Random.Range(0, _pooPrefabs.Length);
-            GameObject pooGO = Instantiate(_pooPrefabs[index], this.transform.position, this.transform.rotation);
+            const float pooRandomRange = 0.3f;
+            Vector3 pooPos = this.transform.position;
+            pooPos += Vector3.right * Random.Range(-pooRandomRange, pooRandomRange);
+            GameObject pooGO = Instantiate(_pooPrefabs[index], pooPos, this.transform.rotation);
             Poo poo = pooGO.GetComponent<Poo>();
             _holdingPin.AddPoo(poo);
             poo.Pin = _holdingPin;
