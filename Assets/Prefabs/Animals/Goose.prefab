@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 212097577321943106}
   - component: {fileID: 61201679907605686}
   - component: {fileID: 50339589200539978}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Goose
   m_TagString: Untagged
   m_Icon: {fileID: 0}

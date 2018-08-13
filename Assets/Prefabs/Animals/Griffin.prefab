@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 212630224271302944}
   - component: {fileID: 61542591915820816}
   - component: {fileID: 50066367604324670}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Griffin
   m_TagString: Untagged
   m_Icon: {fileID: 0}

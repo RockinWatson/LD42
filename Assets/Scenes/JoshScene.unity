@@ -884,7 +884,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 362401347}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: ExtentsRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1029,7 +1029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 468777009}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: ExtentsLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3069,58 +3069,6 @@ Prefab:
       propertyPath: m_Name
       value: Noah
       objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_WhatIsGround.m_Bits
-      value: 256
-      objectReference: {fileID: 0}
-    - target: {fileID: 5800000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_Offset.y
-      value: -0.08831704
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_Size.y
-      value: 2.4438255
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_Offset.x
-      value: -0.21090186
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_Size.x
-      value: 0.8351915
-      objectReference: {fileID: 0}
-    - target: {fileID: 5800000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_Offset.x
-      value: -0.21274447
-      objectReference: {fileID: 0}
-    - target: {fileID: 5800000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_Radius
-      value: 0.4237127
-      objectReference: {fileID: 0}
-    - target: {fileID: 5800000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_Offset.y
-      value: -0.9371582
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.266
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.186
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 14be66739a2056142b1cf0891af45979, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.219
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14be66739a2056142b1cf0891af45979, type: 2}
   m_IsPrefabAsset: 0
@@ -3339,7 +3287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1354201696}
   - component: {fileID: 1354201697}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3373,7 +3321,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 12.50135, y: 0.31220862}
+  m_Offset: {x: 20.83642, y: 0.31220862}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3384,7 +3332,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 25.008635, y: 0.62635964}
+  m_Size: {x: 41.678776, y: 0.62635964}
   m_EdgeRadius: 0
 --- !u!1 &1358806796
 GameObject:
@@ -3757,7 +3705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1581302038}
   - component: {fileID: 1581302039}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3791,7 +3739,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 9.487042, y: -0.06403173}
+  m_Offset: {x: 16.347443, y: -0.06403172}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3802,7 +3750,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 19.368979, y: 0.6474821}
+  m_Size: {x: 33.089775, y: 0.6474821}
   m_EdgeRadius: 0
 --- !u!1 &1623796478
 GameObject:
