@@ -51,6 +51,9 @@ public class Animal : MonoBehaviour {
 	void Start () {
         SpriteRenderer sprite = this.GetComponent<SpriteRenderer>();
         sprite.color = new Color(Random.Range(0.5f, 1.0f), Random.Range(0.5f, 1.0f), Random.Range(0.5f, 1.0f), 1.0f);
+        Vector3 scale = transform.localScale;
+        scale.x *= ((Random.Range(-1.0f, 1.0f) > 0.0f) ? 1f : -1f);
+        transform.localScale = scale;
 	}
 	
 	// Update is called once per frame
