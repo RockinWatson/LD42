@@ -26,7 +26,7 @@ public class SoundController : MonoBehaviour {
     //public AudioLowPassFilter lowPass;
     float startVolume = .7f;
     float sfxVolume = .6f;
-    float poopVolume = .45f;
+    float poopVolume = .5f;
     float cutOff = 500;
 
     // Use this for initialization
@@ -46,9 +46,6 @@ public class SoundController : MonoBehaviour {
         }
 
         timeCounter += Time.deltaTime;
-
-        Debug.Log("randomTime: " + randomTime);
-        Debug.Log("timeCounter: " + timeCounter);
 
 	}
 
@@ -73,7 +70,8 @@ public class SoundController : MonoBehaviour {
         ambience.loop = true;
         ambience.volume = startVolume;
         ambience.Play();
-        poop1.volume = sfxVolume;
+        pickup.volume = sfxVolume;
+        poop1.volume = poopVolume;
         poop2.volume = poopVolume;
         poop3.volume = poopVolume;
         poop4.volume = poopVolume;
@@ -117,6 +115,5 @@ public class SoundController : MonoBehaviour {
                 break;
         }
 
-        Debug.Log("Picked " + randomPoop);
     }
 }
