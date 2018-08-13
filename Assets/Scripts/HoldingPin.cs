@@ -19,6 +19,9 @@ public class HoldingPin : MonoBehaviour {
     private float _timeBetweenAnimalKills = 10.0f;
     private float _killAnimalTimer = 0.0f;
 
+    [SerializeField]
+    private WarningLight _warning = null;
+
     private void Awake()
     {
         _animals = new List<Animal>();
@@ -65,6 +68,7 @@ public class HoldingPin : MonoBehaviour {
 
     private void UpdatePooCapacityState() {
         if(_totalPooWeight >= _pooCapacityKill) {
+            _warning.Activate();
             //@TODO: Start killing animals.
             //Debug.Log("WE AT POO CAPACITY!");
             if (_killAnimalTimer >= _timeBetweenAnimalKills)
@@ -84,6 +88,7 @@ public class HoldingPin : MonoBehaviour {
             }
             _killAnimalTimer += Time.deltaTime;
         } else {
+            _warning.Deactivate();
             //Debug.Log("WE UNDER POO CAPACITY NOW!");
             _killAnimalTimer = 0.0f;
         }
