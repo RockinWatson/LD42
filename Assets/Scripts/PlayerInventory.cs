@@ -134,7 +134,7 @@ public class PlayerInventory : MonoBehaviour {
 
     private void UpdateVacuumList() {
         List<Poo> removeList = new List<Poo>();
-        for (int i = 0; i < _vacuumList.Count - 1; ++i) {   
+        for (int i = 0; i < _vacuumList.Count; ++i) {   
             Poo poo = _vacuumList[i];
             if (poo)
             {
