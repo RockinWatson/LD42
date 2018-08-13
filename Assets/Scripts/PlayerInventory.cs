@@ -79,8 +79,11 @@ public class PlayerInventory : MonoBehaviour {
                 //Debug.Log("PICK UP POO!!");
                 VacuumUpPoo();
             } else {
-                //@TODO: Throw poo
-                ThrowPoo();
+                if (gameObject.GetComponent<Animator>().GetBool("Ground"))
+                {
+                    //@TODO: Throw poo
+                    ThrowPoo();
+                }
             }
         }
         UpdateVacuumList();
