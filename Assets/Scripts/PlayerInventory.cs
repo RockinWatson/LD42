@@ -46,6 +46,16 @@ public class PlayerInventory : MonoBehaviour {
 	{
 		return _totalWeight;
 	}
+    private void UpdateTotalWeight() {
+        _totalWeight = 0;
+        foreach(Poo poo in _vacuumList) {
+            _totalWeight += poo.GetRigidBody().mass;
+        }
+        foreach (Poo poo in _poos)
+        {
+            _totalWeight += poo.GetRigidBody().mass;
+        }
+    }
 
     private void Awake()
     {
@@ -99,6 +109,7 @@ public class PlayerInventory : MonoBehaviour {
         if(!HasPoo(poo))
         {
             _vacuumList.Add(poo);
+            UpdateTotalWeight();
         }
         //_vacuumList.Add(new VacuumItem(poo, _vacuumTime));
     }
@@ -154,6 +165,7 @@ public class PlayerInventory : MonoBehaviour {
             poo.GetComponent<Rigidbody2D>().AddForce(Vector3.up * _upForce);
         }
         _poos.Clear();
+        UpdateTotalWeight();
     }
 
     private void OnBecameInvisible()
