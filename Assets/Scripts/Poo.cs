@@ -46,6 +46,7 @@ public class Poo : MonoBehaviour {
     {
         if (_thrown)
         {
+            GameState.Get().AddScore((int)_weight);
             GameObject.Destroy(this.gameObject);
         }
     }

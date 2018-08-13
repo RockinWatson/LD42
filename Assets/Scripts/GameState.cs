@@ -5,12 +5,15 @@ using UnityEngine;
 public class GameState : MonoBehaviour {
 
     [SerializeField]
-    private float _timePerDay = 60.0f;
+    private float _timePerDay = 3.0f;
     private float _currentTime = 0.0f;
 
     [SerializeField]
-    private uint _totalDays = 40;
-    private uint _currentDay = 0;
+    private int _totalDays = 110;
+    private int _currentDay = 0;
+    private float _dayTimer = 0.0f;
+    [SerializeField]
+    private TextMesh _daysText = null;
 
     [SerializeField]
     private HoldingPinMgr _pinMgr = null;
@@ -48,6 +51,16 @@ public class GameState : MonoBehaviour {
         return !IsLeftDeck();
     }
 
+    private int _score = 0;
+    public void AddScore(int score) {
+        _score += score;
+    }
+    public int GetScore() {
+        return _score;
+    }
+    [SerializeField]
+    private TextMesh _scoreText = null;
+
     static private GameState _this;
     static public GameState Get() {
         return _this;
@@ -65,16 +78,29 @@ public class GameState : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	private void Update () {
+    private void Update () {
         DebugPlayerInput();
-        _currentTime += Time.deltaTime;
-        if(_currentTime >= _timePerDay) {
-            StartNewDay();
-        }
+        //_currentTime += Time.deltaTime;
+        //if(_currentTime >= _timePerDay) {
+        //    StartNewDay();
+        //}
+        UpdateScoreText();
+        UpdateDaysLeft();
 	}
 
-    private void StartNewDay() {
-        _currentTime = 0.0f;
+    //private void StartNewDay() {
+    //    _currentTime = 0.0f;
+    //}
+
+    private void UpdateScoreText() {
+        _scoreText.text = "Score: " + _score;
+    }
+
+    private void UpdateDaysLeft()
+    {
+        _dayTimer += Time.deltaTime;
+        _currentDay = (int)(_dayTimer / _timePerDay);
+        _daysText.text = "Days Left: " + (_totalDays - _currentDay);
     }
 
     private void DebugPlayerInput() {
