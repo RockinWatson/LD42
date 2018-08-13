@@ -10,12 +10,22 @@ public class Poo : MonoBehaviour {
         return _weight;
     }
 
+    private Rigidbody2D _rigidBody = null;
+    public Rigidbody2D GetRigidBody() {
+        return _rigidBody;
+    }
+
     private bool _thrown = false;
 
     public HoldingPin Pin { get; set; }
 
-	// Use this for initialization
-	void Start () {
+    private void Awake()
+    {
+        _rigidBody = this.GetComponent<Rigidbody2D>();
+    }
+
+    // Use this for initialization
+    void Start () {
         this.GetComponent<Rigidbody2D>().mass = _weight / 10.0f;
 	}
 	
