@@ -150,7 +150,7 @@ public class PlayerInventory : MonoBehaviour {
         //float speed = velocity.magnitude;
         Vector3 dir = _tray.position - FindObjectOfType<GameState>().GetDeckEdge().position;
 
-        Vector3 forceDir = Vector3.Slerp(velocity, dir, 0.75f);
+        Vector3 forceDir = Vector3.Slerp(velocity, dir + new Vector3(dir.x, dir.y + 2), 0.75f);
 
         //@TODO: set object pos, Activate
         foreach(Poo poo in _poos) {
