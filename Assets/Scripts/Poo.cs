@@ -44,6 +44,9 @@ public class Poo : MonoBehaviour {
 
     private void OnBecameInvisible()
     {
-        //GameObject.Destroy(this.gameObject);
+        if (_thrown)
+        {
+            GameObject.Destroy(this.gameObject);
+        }
     }
 }
