@@ -74,8 +74,7 @@ public class PlayerInventory : MonoBehaviour {
     // Update is called once per frame
     void FixedUpdate () {
         if(Input.GetKeyDown(KeyCode.E)) {
-            GameState gameState = FindObjectOfType<GameState>();
-            if (gameState.GetDeckEdge().position.y >= _tray.position.y)
+            if (GameState.Get().IsBelowDeck(_tray.position))
             {
                 Debug.Log("PICK UP POO!!");
                 VacuumUpPoo();
