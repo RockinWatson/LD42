@@ -11,25 +11,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/TayTestOpen.unity
-    guid: 6e00dc4230479694082b7d0f672eb054
-  - enabled: 1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/PenSelects/Pen1Select.unity
     guid: e57133c2ca75502478eb44205eda2da1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PenSelects/Pen2Select.unity
     guid: 124c72c90882f22438b126466bb0d7a4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PenSelects/Pen3Select.unity
     guid: 9b6046de12176f04e8546e2bcf7d88c0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PenSelects/Pen4Select.unity
     guid: b0c6aaff5ca088f4783b058c16115c15
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PenSelects/Pen5Select.unity
     guid: 917fd9945c0e1c246a04753e84784c66
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PenSelects/Pen6Select.unity
     guid: 46dde5a53389e8044a72de3a02c28af4
   - enabled: 1
