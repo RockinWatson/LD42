@@ -79,7 +79,7 @@ public class PlayerInventory : MonoBehaviour {
                 //Debug.Log("PICK UP POO!!");
                 VacuumUpPoo();
             } else {
-                if (gameObject.GetComponent<Animator>().GetBool("Ground"))
+                //if (gameObject.GetComponent<Animator>().GetBool("Ground"))
                 {
                     //@TODO: Throw poo
                     ThrowPoo();
@@ -95,7 +95,7 @@ public class PlayerInventory : MonoBehaviour {
         if(colliders.Length > 0) {
             //Debug.Log("FOUND SOME SHIT!");
         }
-        for (int i = 0; i <= colliders.Length- 1; ++i) {
+        for (int i = 0; i < colliders.Length; ++i) {
             Poo poo = colliders[i].gameObject.GetComponent<Poo>();
             if(poo) {
                 //Debug.Log("GETTIN POO HITS!!");
@@ -150,7 +150,8 @@ public class PlayerInventory : MonoBehaviour {
         //float speed = velocity.magnitude;
         Vector3 dir = _tray.position - FindObjectOfType<GameState>().GetDeckEdge().position;
 
-        Vector3 forceDir = Vector3.Slerp(velocity, dir + new Vector3(dir.x, dir.y + 2), 0.75f);
+        Vector3 forceDir = Vector3.Slerp(velocity, dir, 0.75f);
+        //Vector3 forceDir = Vector3.Slerp(velocity, dir + new Vector3(dir.x, dir.y + 2), 0.75f);
 
         //@TODO: set object pos, Activate
         foreach(Poo poo in _poos) {
@@ -175,14 +176,14 @@ public class PlayerInventory : MonoBehaviour {
             _poos.Sort();
             const float pileHeight = 1.0f;
             Vector3 trayBase = _tray.transform.position;
-            const float randomBaseRange = 0.1f;
+            const float randomBaseRange = 0.01f;
             for (int i = 0; i < pooCount; ++i)
             {
                 Vector3 randomBase = trayBase + Vector3.left * Random.Range(-randomBaseRange, randomBaseRange);
                 Vector3 pileTop = randomBase + (_tray.up * pileHeight);
 
                 Poo poo = _poos[i];
-                poo.transform.localScale = Vector3.one * 0.6f;
+                poo.transform.localScale = Vector3.one * 0.7f;
                 poo.transform.position = Vector3.Lerp(randomBase, pileTop, i / (float)pooCount);
             }
         }
