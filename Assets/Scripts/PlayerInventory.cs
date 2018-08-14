@@ -150,19 +150,24 @@ public class PlayerInventory : MonoBehaviour {
         //float speed = velocity.magnitude;
         Vector3 dir = _tray.position - FindObjectOfType<GameState>().GetDeckEdge().position;
 
-        Vector3 forceDir = Vector3.Slerp(velocity, dir, 0.75f);
+        //Vector3 forceDir = Vector3.Lerp(velocity, dir, 0.75f);
         //Vector3 forceDir = Vector3.Slerp(velocity, dir + new Vector3(dir.x, dir.y + 2), 0.75f);
+        Vector3 forceDir = new Vector3(GameState.Get().IsLeftDeck() ? -1.0f : 1.0f, 3.0f, 0.0f);
 
         //@TODO: set object pos, Activate
         foreach(Poo poo in _poos) {
+            poo.gameObject.layer = 0;
             poo.transform.position = _tray.position;
             poo.transform.localScale = Vector3.one;
             poo.gameObject.SetActive(true);
             poo.Throw();
 
             //@TODO: , send them flying 
-            poo.GetComponent<Rigidbody2D>().AddForce(forceDir * _throwForce);
-            poo.GetComponent<Rigidbody2D>().AddForce(Vector3.up * _upForce);
+            Rigidbody2D pooBody = poo.GetComponent<Rigidbody2D>();
+            pooBody.mass = 1.0f;
+            pooBody.AddForce(forceDir * _throwForce);
+            //poo.GetComponent<Rigidbody2D>().AddForce(Vector3.up * _upForce);
+            //pooBody.AddForce(Vector3.up * 5000.0f);
         }
         _poos.Clear();
         //SoundController.toss.Play();
