@@ -99,25 +99,36 @@ public class HoldingPin : MonoBehaviour {
         return this.transform.position + Vector3.right * Random.Range(-1.0f, 1.0f) * randomEdge;
     }
 
-    public void AddAnimal(Animal.ANIMAL_TYPE type)
+    public void AddAnimal(Animal.ANIMAL_TYPE type, bool cinematic = false)
     {
         //@TODO: Retrieve appropriate prefab for animal type.
-        GameState gameState = FindObjectOfType<GameState>();
-        DictionaryOfAnimalPrefabs prefabDict = gameState.GetAnimalPrefabDictionary();
+        DictionaryOfAnimalPrefabs prefabDict = AnimalPicker.Get().GetAnimalPrefabDictionary();
         GameObject prefab = prefabDict[type];
         
         //@TODO: Generate the animal prefabs.
         GameObject animalGO = Instantiate(prefab, GetNewAnimalSpawnPos(), this.transform.rotation);
         Animal animal = animalGO.GetComponent<Animal>();
+        if(cinematic) {
+            animal.SetCinematic();
+        }
 
         //@TODO: Assign them to our animals list.
         _animals.Add(animal);
         animal.SetHoldingPin(this);
     }
 
-    public void AddAnimalPair(Animal.ANIMAL_TYPE type)
+    public void AddAnimalPair(Animal.ANIMAL_TYPE type, bool cinematic=false)
     {
-        AddAnimal(type);
-        AddAnimal(type);
+        AddAnimal(type, cinematic);
+        AddAnimal(type, cinematic);
+    }
+
+    public void DestroyAnimals() {
+        //Debug.Log("WE 'BOUT TO DESRTROY SOME ANIMALS!");
+        for (int i = 0; i < _animals.Count; ++i) {
+            Animal animal = _animals[i];
+            GameObject.Destroy(animal.gameObject);
+        }
+        _animals.Clear();
     }
 }

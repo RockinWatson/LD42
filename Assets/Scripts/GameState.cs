@@ -89,7 +89,8 @@ public class GameState : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        DebugSpawnAnimals();
+        SpawnAnimals();
+        //DebugSpawnAnimals();
     }
 	
 	// Update is called once per frame
@@ -130,6 +131,17 @@ public class GameState : MonoBehaviour {
     //        DebugSpawnAnimals();
     //    }
     //}
+
+    private void SpawnAnimals() {
+        int animalIndex = 0;
+        List<Animal.ANIMAL_TYPE> animalPicks = AnimalPicker.Get().GetPicks();
+        HoldingPin[] pins = _pinMgr.GetPins();
+        foreach (HoldingPin pin in pins)
+        {
+            pin.AddAnimalPair(animalPicks[animalIndex]);
+            ++animalIndex;
+        }
+    }
 
     private void DebugSpawnAnimals() {
         List<Animal.ANIMAL_TYPE> animalTypesPicked = new List<Animal.ANIMAL_TYPE>();

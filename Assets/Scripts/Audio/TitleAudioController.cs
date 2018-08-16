@@ -47,7 +47,7 @@ public class TitleAudioController : MonoBehaviour {
                     SceneManager.LoadScene("CINY5");
                     break;
                 case "CINY5":
-                    SceneManager.LoadScene("CINY6");
+                    SceneManager.LoadScene("CINY5-pick");
                     break;
                 case "CINY6":
                     SceneManager.LoadScene("CINY7");

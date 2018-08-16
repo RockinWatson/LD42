@@ -57,6 +57,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CINY5.unity
     guid: 10c5447cdedb0974db72fa74bec495b9
   - enabled: 1
+    path: Assets/Scenes/CINY5-pick.unity
+    guid: 78e410c76b56d43fba7772ae6eb4aa7a
+  - enabled: 1
     path: Assets/Scenes/CINY6.unity
     guid: 35761bd01c70c8b4eb73a43bc6f03d59
   - enabled: 1

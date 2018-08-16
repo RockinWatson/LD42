@@ -33,6 +33,12 @@ public class Animal : MonoBehaviour {
     [SerializeField]
     private uint _keepAliveScore = 10;
 
+    [SerializeField]
+    private bool _isCinematic = false;
+    public void SetCinematic() {
+        _isCinematic = true;
+    }
+
     private HoldingPin _holdingPin = null;
     public void SetHoldingPin(HoldingPin pin) {
         _holdingPin = pin;
@@ -58,7 +64,7 @@ public class Animal : MonoBehaviour {
 	
 	// Update is called once per frame
 	virtual public void Update () {
-        if(IsAlive()) {
+        if(IsAlive() && !_isCinematic) {
             //@TODO: Do alive behavior.
             UpdatePoo();
         } else {
@@ -99,8 +105,12 @@ public class Animal : MonoBehaviour {
 
 [System.Serializable]
 public class DictionaryOfAnimalPrefabs : SerializableDictionary<Animal.ANIMAL_TYPE, GameObject> { }
+[System.Serializable]
+public class DictionaryOfAnimalNames : SerializableDictionary<Animal.ANIMAL_TYPE, string> { }
 
 #if UNITY_EDITOR
 [CustomPropertyDrawer(typeof(DictionaryOfAnimalPrefabs))]
 public class MyDictionaryDrawer2 : DictionaryDrawer<Animal.ANIMAL_TYPE, GameObject> { }
+[CustomPropertyDrawer(typeof(DictionaryOfAnimalNames))]
+public class MyDictionaryDrawer3 : DictionaryDrawer<Animal.ANIMAL_TYPE, string> { }
 #endif
