@@ -50,7 +50,7 @@ namespace Assets.Scripts
         }
 
 
-        public void Move(float move, bool crouch, bool jump)
+        public void Move(float move, bool crouch, bool jump, bool buttonJump)
         {
             // If crouching, check to see if the character can stand up
             //if (!crouch && m_Anim.GetBool("Crouch"))
@@ -91,7 +91,7 @@ namespace Assets.Scripts
                 }
             }
             // If the player should jump...
-            if (m_Grounded && jump && m_Anim.GetBool("Ground"))
+            if (m_Grounded && m_Anim.GetBool("Ground") && (jump || buttonJump))
             {
                 // Add a vertical force to the player.
                 m_Grounded = false;

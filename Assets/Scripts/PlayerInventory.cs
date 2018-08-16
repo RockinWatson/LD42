@@ -73,7 +73,7 @@ public class PlayerInventory : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate () {
-        if(Input.GetKeyDown(KeyCode.E)) {
+        if(Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.JoystickButton2))) {
             if (GameState.Get().IsBelowDeck(_tray.position))
             {
                 //Debug.Log("PICK UP POO!!");

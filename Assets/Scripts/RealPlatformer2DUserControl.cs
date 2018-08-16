@@ -8,6 +8,7 @@ namespace Assets.Scripts
     {
         private RealPlatformerCharacter2D m_Character;
         private bool m_Jump;
+        private bool m_buttonJump;
 
 
         private void Awake()
@@ -22,6 +23,7 @@ namespace Assets.Scripts
             {
                 // Read the jump input in Update so button presses aren't missed.
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+                m_buttonJump = Input.GetKeyDown(KeyCode.JoystickButton1);
             }
         }
 
@@ -32,7 +34,7 @@ namespace Assets.Scripts
             bool crouch = Input.GetKey(KeyCode.LeftControl);
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             // Pass all parameters to the character control script.
-            m_Character.Move(h, crouch, m_Jump);
+            m_Character.Move(h, crouch, m_Jump, m_buttonJump);
             m_Jump = false;
         }
     }
