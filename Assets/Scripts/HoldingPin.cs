@@ -121,6 +121,19 @@ public class HoldingPin : MonoBehaviour {
     {
         AddAnimal(type, cinematic);
         AddAnimal(type, cinematic);
+
+        //@TODO: Verify distance is enough.
+        int animalCount = _animals.Count;
+        Animal animal0 = _animals[animalCount - 2];
+        Animal animal1 = _animals[animalCount - 1];
+        Vector3 animal0pos = animal0.transform.position;
+        Vector3 animal1pos = animal1.transform.position;
+        Vector3 dir = animal0pos  - animal1pos;
+        float minPairDistance = animal0.GetScale().x;
+        if(dir.magnitude < minPairDistance) {
+            animal0.transform.position = (animal0pos + dir.normalized * minPairDistance / 2.0f);
+            animal1.transform.position = (animal1pos - dir.normalized * minPairDistance / 2.0f);
+        }
     }
 
     public void DestroyAnimals() {
