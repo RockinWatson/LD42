@@ -102,7 +102,12 @@ public class HoldingPin : MonoBehaviour {
     public void AddAnimal(Animal.ANIMAL_TYPE type, bool cinematic = false)
     {
         //@TODO: Retrieve appropriate prefab for animal type.
-        DictionaryOfAnimalPrefabs prefabDict = AnimalPicker.Get().GetAnimalPrefabDictionary();
+        DictionaryOfAnimalPrefabs prefabDict;
+        if(AnimalPicker.Get()) {
+            prefabDict = AnimalPicker.Get().GetAnimalPrefabDictionary();
+        } else {
+            prefabDict = GameState.Get().GetAnimalPrefabDictionary();
+        }
         GameObject prefab = prefabDict[type];
         
         //@TODO: Generate the animal prefabs.

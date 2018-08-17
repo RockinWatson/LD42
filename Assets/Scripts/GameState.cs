@@ -89,7 +89,11 @@ public class GameState : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        SpawnAnimals();
+        if (AnimalPicker.Get())
+        {
+            SpawnAnimals();
+            //DebugSpawnAnimals();
+        }
         //DebugSpawnAnimals();
     }
 	
@@ -125,12 +129,14 @@ public class GameState : MonoBehaviour {
         _daysText.text = "Days Left: " + (_dayActual);
     }
 
-    //private void DebugPlayerInput() {
-    //    if(Input.GetKeyDown(KeyCode.Return) && !_debugAnimalsSpawned) {
-    //        Debug.Log("SPAWN SOME ANIMALS!!!");
-    //        DebugSpawnAnimals();
-    //    }
-    //}
+//#if UNITY_EDITOR
+//    private void DebugPlayerInput() {
+//        if(Input.GetKeyDown(KeyCode.Return) && !_debugAnimalsSpawned) {
+//            Debug.Log("SPAWN SOME ANIMALS!!!");
+//            DebugSpawnAnimals();
+//        }
+//    }
+//#endif //UNITY_EDITOR
 
     private void SpawnAnimals() {
         int animalIndex = 0;
