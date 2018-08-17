@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class SoundController : MonoBehaviour {
 
+    private bool _fart1() { return (Input.GetKeyDown(KeyCode.Alpha4)); }
+    private bool _fart2() { return (Input.GetKeyDown(KeyCode.Alpha6)); }
+    private bool _fart3() { return (Input.GetKeyDown(KeyCode.Alpha5)); }
+    private bool _fart4() { return (Input.GetKeyDown(KeyCode.Alpha8)); }
+    private bool _fart5() { return (Input.GetKeyDown(KeyCode.Alpha7)); }
+
 
     public AudioSource ambience;
     public static AudioSource jump;
@@ -45,6 +51,10 @@ public class SoundController : MonoBehaviour {
 
         }
 
+        FartButtons();
+
+
+
         timeCounter += Time.deltaTime;
 
 	}
@@ -79,6 +89,31 @@ public class SoundController : MonoBehaviour {
         poop6.volume = poopVolume;
         poop7.volume = poopVolume;
         poop8.volume = poopVolume;
+    }
+
+    private void FartButtons()
+    {
+        if (_fart1())
+        {
+            poop7.Play();
+        }
+        if (_fart2())
+        {
+            poop3.Play();
+        }
+        if (_fart3())
+        {
+            poop1.Play();
+        }
+        if (_fart4())
+        {
+            poop8.Play();
+        }
+        if (_fart5())
+        {
+            poop5.Play();
+        }
+
     }
 
     private void ChoosePoop()
