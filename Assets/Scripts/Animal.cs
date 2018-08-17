@@ -34,9 +34,20 @@ public class Animal : MonoBehaviour {
     private uint _keepAliveScore = 10;
 
     [SerializeField]
+    private float _cinematicScale = 1.5f;
+    [SerializeField]
     private bool _isCinematic = false;
-    public void SetCinematic() {
+    public void SetCinematic()
+    {
         _isCinematic = true;
+        SetScale(_cinematicScale * Vector3.one);
+    }
+    public Vector3 GetScale() {
+        return this.transform.localScale;
+    }
+    public void SetScale(Vector3 scale)
+    {
+        this.transform.localScale = scale;
     }
 
     private HoldingPin _holdingPin = null;
