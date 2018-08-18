@@ -17,7 +17,7 @@ namespace Assets.Scripts
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.JoystickButton9))
             {
                 SceneManager.LoadScene("JoshScene");
             }

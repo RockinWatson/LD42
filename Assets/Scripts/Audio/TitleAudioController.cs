@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TitleAudioController : MonoBehaviour {
 
-    private bool _select() { return (Input.GetKeyDown(KeyCode.Return)); }
+    private bool _select() { return (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.JoystickButton4)); }
     public AudioSource titleMusic;
     public AudioSource select;
     public AudioSource storyMusic;

@@ -44,11 +44,11 @@ public class AnimalPicker : MonoBehaviour {
     private int _animalPickIndex = 0;
 
     private bool LeftKeyDown() {
-        return Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow);
+        return Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) || (Input.GetAxis("Horizontal") < 0);
     }
     private bool RightKeyDown()
     {
-        return Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow);
+        return Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) || (Input.GetAxis("Horizontal") > 0);
     }
 
     private bool _isDonePicking = false;
@@ -173,5 +173,10 @@ public class AnimalPicker : MonoBehaviour {
             }
         }
         return animalType;
+    }
+
+    IEnumerator WaitForPick()
+    {
+        yield return new WaitForSeconds(2f);
     }
 }
