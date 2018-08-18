@@ -4,9 +4,18 @@ tpsheetFileNames:
 - Assets/Art/NewAnis/arm1/arm1.tpsheet
 - Assets/Art/NewAnis/arm2/arm2.tpsheet
 - Assets/Art/NewAnis/begin/begin.tpsheet
+- Assets/Art/NewAnis/begingame/begingame.tpsheet
 - Assets/Art/NewAnis/Boat/boat.tpsheet
 - Assets/Art/NewAnis/chain/chain.tpsheet
+- Assets/Art/NewAnis/glasses/glasses.tpsheet
+- Assets/Art/NewAnis/heart/heart.tpsheet
+- Assets/Art/NewAnis/lilpoops/lilpoops.tpsheet
 - Assets/Art/NewAnis/logo2/logo2.tpsheet
+- Assets/Art/NewAnis/noahnoglasses/noahnoglasses.tpsheet
+- Assets/Art/NewAnis/poopark/poopark.tpsheet
+- Assets/Art/NewAnis/progressstory/progressstory.tpsheet
+- Assets/Art/NewAnis/rainbow/rainbow.tpsheet
+- Assets/Art/NewAnis/restarthappy/restarthappy.tpsheet
 - Assets/Art/NewAnis/spark/spark.tpsheet
 - Assets/Art/NewAnis/waves/logo.tpsheet
 - Assets/Art/NewAnis/Zardoz/zardoz.tpsheet
@@ -25,9 +34,18 @@ textureFileNames:
 - Assets/Art/NewAnis/arm1/arm1.png
 - Assets/Art/NewAnis/arm2/arm2.png
 - Assets/Art/NewAnis/begin/begin.png
+- Assets/Art/NewAnis/begingame/begingame.png
 - Assets/Art/NewAnis/Boat/boat.png
 - Assets/Art/NewAnis/chain/chain.png
+- Assets/Art/NewAnis/glasses/glasses.png
+- Assets/Art/NewAnis/heart/heart.png
+- Assets/Art/NewAnis/lilpoops/lilpoops.png
 - Assets/Art/NewAnis/logo2/logo2.png
+- Assets/Art/NewAnis/noahnoglasses/noahnoglasses.png
+- Assets/Art/NewAnis/poopark/poopark.png
+- Assets/Art/NewAnis/progressstory/progressstory.png
+- Assets/Art/NewAnis/rainbow/rainbow.png
+- Assets/Art/NewAnis/restarthappy/restarthappy.png
 - Assets/Art/NewAnis/spark/spark.png
 - Assets/Art/NewAnis/waves/logo.png
 - Assets/Art/NewAnis/Zardoz/zardoz.png
@@ -43,6 +61,15 @@ textureFileNames:
 - Assets/Art/Noah/Walk/Animations.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

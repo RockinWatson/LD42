@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 8da60131e18131748b2367128b739889
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: progressstory
+    21300002: progressstory_000
+    21300004: progressstory_001
+    21300006: progressstory_002
+    21300008: progressstory_003
+    21300010: progressstory_004
+    21300012: progressstory_005
+    21300014: progressstory_006
+    21300016: progressstory_007
+    21300018: progressstory_008
+    21300020: progressstory_009
+    21300022: progressstory_010
+    21300024: progressstory_011
+    21300026: progressstory_012
+    21300028: progressstory_013
+    21300030: progressstory_014
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: progressstory_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 955
+        width: 461
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4ee3406cd67994cb4ecbae0c7d09f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_001
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 955
+        width: 461
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284972924ff54474e96437bdf125af62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 815
+        width: 459
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50217867, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf40ba290ea02441bc66e15d221f06c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 745
+        width: 458
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5032751, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab818517306bcce4bb3954487df5c926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_004
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 675
+        width: 456
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50328946, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f690b60781b6e16458dee99233cdf1fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_005
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 535
+        width: 452
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5011062, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749dbacac7f899a438e76a08832630a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 465
+        width: 451
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5044346, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f2b00cf58ec9f4fa7989420f0d1452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 535
+        width: 454
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50550663, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebb86fec978c35488d2ac95d448150c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 605
+        width: 456
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50548244, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad576f12dcef5741b2a6cd20220c262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_009
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 605
+        width: 456
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50328946, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a47862339898e44e97208daf8c2651a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 675
+        width: 457
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50437635, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726127b508a3f2f4f94a7ee8eea89403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_011
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 745
+        width: 458
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5032751, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf7f588c377cab498af17a676b3c4f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_012
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 815
+        width: 459
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50217867, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0082a5bc8064d4e9cfb8bbd2cf3808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_013
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 885
+        width: 460
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50108695, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef486b53225be7488434a4d24c0da63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progressstory_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 885
+        width: 461
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e05693c82ba63844ae4a8f2fed3f14d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5474b0cae8d50d14ba3fb8af0585b09c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

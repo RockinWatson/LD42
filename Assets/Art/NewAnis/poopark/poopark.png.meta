@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 7512d0f7174000c439f1aa697222c2a4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: poopark
+    21300002: poopark_000
+    21300004: poopark_001
+    21300006: poopark_002
+    21300008: poopark_003
+    21300010: poopark_004
+    21300012: poopark_005
+    21300014: poopark_006
+    21300016: poopark_007
+    21300018: poopark_008
+    21300020: poopark_009
+    21300022: poopark_010
+    21300024: poopark_011
+    21300026: poopark_012
+    21300028: poopark_013
+    21300030: poopark_014
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: poopark_000
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 612
+        width: 205
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.50763357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf09a5666e297741a5bf62cfd9d0daf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_001
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 599
+        width: 204
+        height: 141
+      alignment: 9
+      pivot: {x: 0.502451, y: 0.5070922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48b97bf58c1aea45aaff9d6704a2e79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_002
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 886
+        width: 207
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb3247bbc6f50c4a969cf980cb611fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_003
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 880
+        width: 208
+        height: 143
+      alignment: 9
+      pivot: {x: 0.49759614, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a811e94c8285704983cace405c11150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 882
+        width: 209
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5141844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3507600709b98d1499cd19198362c5d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 466
+        width: 204
+        height: 140
+      alignment: 9
+      pivot: {x: 0.49754903, y: 0.50357145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7454279584b868b419325a9bfc02155d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_006
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 468
+        width: 202
+        height: 142
+      alignment: 9
+      pivot: {x: 0.49257424, y: 0.48943663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0542b7f7571184da8934747929c577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_007
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 459
+        width: 201
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49004975, y: 0.48913044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4145e14cd5f324941b6e058b6869533a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_008
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 742
+        width: 206
+        height: 136
+      alignment: 9
+      pivot: {x: 0.49271846, y: 0.4742647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df91d02984beda46992a095be169616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_009
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 882
+        width: 206
+        height: 141
+      alignment: 9
+      pivot: {x: 0.49271846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299b9d5bc91f0f24a801c9f787b6c74f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_010
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 604
+        width: 204
+        height: 139
+      alignment: 9
+      pivot: {x: 0.49754903, y: 0.4856115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dc2b592ef696f46a64cd30c705604f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 608
+        width: 206
+        height: 135
+      alignment: 9
+      pivot: {x: 0.4975728, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a57dbb04804764c84381bfbc89149d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 745
+        width: 208
+        height: 135
+      alignment: 9
+      pivot: {x: 0.49759614, y: 0.4925926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7425af263eb597f49814b054af0fab36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_013
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 745
+        width: 206
+        height: 139
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.49280575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3d81f970b1a344490689a0e614f585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poopark_014
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 745
+        width: 206
+        height: 135
+      alignment: 9
+      pivot: {x: 0.4975728, y: 0.4925926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96154dfc34d04fe43a19789c3ed41202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d7b98f7e3d8d764459dea182bb4b1000
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

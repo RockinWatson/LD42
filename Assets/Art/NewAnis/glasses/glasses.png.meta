@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: a38f15a32683e2b409ac8b0406f3c725
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: glasses
+    21300002: sunglasses_000
+    21300004: sunglasses_001
+    21300006: sunglasses_002
+    21300008: sunglasses_003
+    21300010: sunglasses_004
+    21300012: sunglasses_005
+    21300014: sunglasses_006
+    21300016: sunglasses_007
+    21300018: sunglasses_008
+    21300020: sunglasses_009
+    21300022: sunglasses_010
+    21300024: sunglasses_011
+    21300026: sunglasses_012
+    21300028: sunglasses_013
+    21300030: sunglasses_014
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sunglasses_000
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 554
+        width: 445
+        height: 192
+      alignment: 9
+      pivot: {x: 0.50337076, y: 0.5052083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519f70d0e13f3634d9bd13dd6cbc6f33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 927
+        width: 447
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5055928, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3488d58951bbad74c9fbe2b2fa8b1e25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 738
+        width: 446
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5044843, y: 0.5240642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9be61350d5c474b8e9c0c120750d74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1488
+        width: 450
+        height: 183
+      alignment: 9
+      pivot: {x: 0.4977778, y: 0.5355191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5119d5b3a4fbcfe409ef61851a25a5b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1121
+        width: 448
+        height: 180
+      alignment: 9
+      pivot: {x: 0.4955357, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210b0e68203b0bd4f8873a4190992b6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_005
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1489
+        width: 450
+        height: 181
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5414365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7359d4cc03f4c140b98ee0a99f74f19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_006
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 927
+        width: 447
+        height: 184
+      alignment: 9
+      pivot: {x: 0.4966443, y: 0.5326087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb4ee43451314444b76f7422273e354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_007
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1306
+        width: 450
+        height: 181
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53038675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f45eca25ecb8a640bac09747aa349e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_008
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1867
+        width: 451
+        height: 180
+      alignment: 9
+      pivot: {x: 0.49889135, y: 0.5388889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f0471b0ab99cc46a2e4715237ce83b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_009
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 748
+        width: 446
+        height: 177
+      alignment: 9
+      pivot: {x: 0.49775785, y: 0.5423729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f1b2079311b2c479b0f66e889afc97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1862
+        width: 452
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54594594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c952cf7126fa24da32075a49a2060a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1303
+        width: 449
+        height: 183
+      alignment: 9
+      pivot: {x: 0.4988864, y: 0.5300546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4220d9cfc9ea9c044bcb67eb86bd53f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1673
+        width: 450
+        height: 187
+      alignment: 9
+      pivot: {x: 0.50222224, y: 0.5240642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af47317cdac0c5146b7f5382d19c5c57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_013
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1672
+        width: 450
+        height: 193
+      alignment: 9
+      pivot: {x: 0.50222224, y: 0.5284974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c6b842c7bec2a428788f27a1326970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunglasses_014
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1113
+        width: 448
+        height: 191
+      alignment: 9
+      pivot: {x: 0.49776787, y: 0.513089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d833d5b075b97254dbbbba9501c36e36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d4935511b7d8e4a4580ce18283fb3102
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

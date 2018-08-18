@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 90aa9d01689325f4c971a193110dfc1c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: restarthappy
+    21300002: restarthappy_000
+    21300004: restarthappy_001
+    21300006: restarthappy_002
+    21300008: restarthappy_003
+    21300010: restarthappy_004
+    21300012: restarthappy_005
+    21300014: restarthappy_006
+    21300016: restarthappy_007
+    21300018: restarthappy_008
+    21300020: restarthappy_009
+    21300022: restarthappy_010
+    21300024: restarthappy_011
+    21300026: restarthappy_012
+    21300028: restarthappy_013
+    21300030: restarthappy_014
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: restarthappy_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 955
+        width: 432
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bbd431fe1fb014999ba8979a8d048f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_001
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 955
+        width: 432
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1538a62ecb44f1845a78f6ed06e9f9f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 815
+        width: 431
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5011601, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939f331420dc5814eb44aca22508daa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 745
+        width: 430
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5023256, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06c0c1d98f971641bda725cb173e5a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 675
+        width: 428
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50233644, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d262022804c002f49b001f486ae6b422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_005
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 605
+        width: 426
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5046948, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0af8404736e774199a24946a6245af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 465
+        width: 423
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5035461, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2df6e4490caf345910ef9ab0283a04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 535
+        width: 426
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5046948, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f5c5bbc6d64c149ab8e7641d38df31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_008
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 675
+        width: 428
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5046729, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da18f6ad3eb07bf43af2dfbe48bb0427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_009
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 535
+        width: 424
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3ce5722e083ca45aa3d1754b33c9b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 605
+        width: 428
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50233644, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8bc633c06415343a623e0ef19e8716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_011
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 745
+        width: 430
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5023256, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a0ce5d41ee32d4b8b4311d877d2260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_012
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 815
+        width: 431
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5011601, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700fd126da274444ea76c425f39dc494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 885
+        width: 432
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b2cb62242d8624e9dfe48a5fb137f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restarthappy_014
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 885
+        width: 432
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a78c2743a6fc5d4e9a5e70f72ddf8b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 28243911e363d7e479fdea5d23a518c1
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

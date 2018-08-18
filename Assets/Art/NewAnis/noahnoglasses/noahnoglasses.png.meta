@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 07ff4de0b3c1ce24caa41fdb5f7baead
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: noahnoglasses
+    21300002: noahnoglasses_000
+    21300004: noahnoglasses_001
+    21300006: noahnoglasses_002
+    21300008: noahnoglasses_003
+    21300010: noahnoglasses_004
+    21300012: noahnoglasses_005
+    21300014: noahnoglasses_006
+    21300016: noahnoglasses_007
+    21300018: noahnoglasses_008
+    21300020: noahnoglasses_009
+    21300022: noahnoglasses_010
+    21300024: noahnoglasses_011
+    21300026: noahnoglasses_012
+    21300028: noahnoglasses_013
+    21300030: noahnoglasses_014
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: noahnoglasses_000
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 81
+        width: 143
+        height: 186
+      alignment: 9
+      pivot: {x: 0.506993, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19124b237054d0c49a9776665bf9e2ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_001
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 650
+        width: 146
+        height: 185
+      alignment: 9
+      pivot: {x: 0.50342464, y: 0.4972973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf7d2b59424b6c49aa592f94ffa592f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_002
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 454
+        width: 144
+        height: 188
+      alignment: 9
+      pivot: {x: 0.5104167, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d325560d467634e8f8cd8818bc2d1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_003
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 459
+        width: 144
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5173611, y: 0.5026455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140fb872cae6976409d7aa7a495cd867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 142
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5105634, y: 0.5026455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a723722784f57c4ea16b1609ee44dd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 643
+        width: 144
+        height: 190
+      alignment: 9
+      pivot: {x: 0.5034722, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7457794b92919864982b1bcf444f6e63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_006
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 644
+        width: 145
+        height: 190
+      alignment: 9
+      pivot: {x: 0.50689656, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d7115e1d28c4b4b82d58fefb226582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 835
+        width: 146
+        height: 188
+      alignment: 9
+      pivot: {x: 0.510274, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b3547e7c8f84e41b44ffa197957cc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_008
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 265
+        width: 144
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5173611, y: 0.49197862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b53698d703dddb438b4279f04a9eb4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 453
+        width: 144
+        height: 188
+      alignment: 9
+      pivot: {x: 0.5173611, y: 0.49468085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808421d8210180a4bb1c39a59d9573ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_010
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 269
+        width: 144
+        height: 188
+      alignment: 9
+      pivot: {x: 0.5173611, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b98f1f6da52ee448a7038fa085c139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 262
+        width: 143
+        height: 189
+      alignment: 9
+      pivot: {x: 0.513986, y: 0.4973545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0609be94673028944902712b05dafc96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_012
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 73
+        width: 143
+        height: 187
+      alignment: 9
+      pivot: {x: 0.506993, y: 0.49197862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d987e38376cc96b428e02da19d0cb04f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_013
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 837
+        width: 146
+        height: 186
+      alignment: 9
+      pivot: {x: 0.50342464, y: 0.49462366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be8fd3df550b8149aad81a655f266b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noahnoglasses_014
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 836
+        width: 146
+        height: 187
+      alignment: 9
+      pivot: {x: 0.50342464, y: 0.49197862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba39f31c1394c149af7f7662ab79a22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d8fc79cfd21d0a9469fae4d656f39df9
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

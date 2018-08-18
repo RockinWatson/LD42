@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: f2379e74aad78d2419452d5177fd0442
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rainbow
+    21300002: rainbow_000
+    21300004: rainbow_001
+    21300006: rainbow_002
+    21300008: rainbow_003
+    21300010: rainbow_004
+    21300012: rainbow_005
+    21300014: rainbow_006
+    21300016: rainbow_007
+    21300018: rainbow_008
+    21300020: rainbow_009
+    21300022: rainbow_010
+    21300024: rainbow_011
+    21300026: rainbow_012
+    21300028: rainbow_013
+    21300030: rainbow_014
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rainbow_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 484
+        width: 244
+        height: 154
+      alignment: 9
+      pivot: {x: 0.32786885, y: 0.38311687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f71c5c3b6d1a44c856c73c3a9982ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_001
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 532
+        width: 243
+        height: 148
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.38513514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686c7afe8aebabb4b911101231239d5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_002
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 624
+        width: 253
+        height: 138
+      alignment: 9
+      pivot: {x: 0.35968378, y: 0.38405797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcba131a8fcc9e34da9007a59e7fbca6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 773
+        width: 269
+        height: 128
+      alignment: 9
+      pivot: {x: 0.39033458, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5523cd687a252064ba751a860484785e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 640
+        width: 261
+        height: 131
+      alignment: 9
+      pivot: {x: 0.41379312, y: 0.3740458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f351f1ce5c0e11e459b3340bf7276e16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 903
+        width: 281
+        height: 120
+      alignment: 9
+      pivot: {x: 0.455516, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37479cb0205bdf429389709689bc272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_006
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 764
+        width: 264
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.3984375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be57164e64388d744b091739b75c2b65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_007
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 894
+        width: 275
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5018182, y: 0.41860464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bb4986162d9d44bb79f6f1d23f8f53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_008
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 878
+        width: 268
+        height: 145
+      alignment: 9
+      pivot: {x: 0.54850745, y: 0.44827586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65bc75cafe2f9842925d13556bd3e93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_009
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 714
+        width: 259
+        height: 162
+      alignment: 9
+      pivot: {x: 0.55984557, y: 0.49382716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae85584d17ccb4841b3d0d65d53bd3f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_010
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 541
+        width: 243
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5967078, y: 0.5204678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d58f0e71a55f04da889ac0da63888f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_011
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 447
+        width: 240
+        height: 175
+      alignment: 9
+      pivot: {x: 0.64166665, y: 0.50857145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c583763002c14c47b126ae8bc7e990b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 303
+        width: 226
+        height: 179
+      alignment: 9
+      pivot: {x: 0.67699116, y: 0.5251397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a62e6291aa0c044959456eb6d08a96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_013
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 682
+        width: 220
+        height: 194
+      alignment: 9
+      pivot: {x: 0.70454544, y: 0.53608245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0b856d2067aee488033b053dfaf3fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rainbow_014
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 343
+        width: 217
+        height: 196
+      alignment: 9
+      pivot: {x: 0.67281103, y: 0.5561224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd47f33d00409204599f5c6341f29b8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 814457c7551d3de41a292244433efd2d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
