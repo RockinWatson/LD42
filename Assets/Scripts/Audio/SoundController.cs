@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SoundController : MonoBehaviour {
 
@@ -9,6 +10,8 @@ public class SoundController : MonoBehaviour {
     private bool _fart3() { return (Input.GetKeyDown(KeyCode.Alpha5)); }
     private bool _fart4() { return (Input.GetKeyDown(KeyCode.Alpha8)); }
     private bool _fart5() { return (Input.GetKeyDown(KeyCode.Alpha7)); }
+
+
 
 
     public AudioSource ambience;
@@ -37,6 +40,16 @@ public class SoundController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+
+        Scene currentScene = SceneManager.GetActiveScene();
+        string sceneName = currentScene.name;
+
+        if ((sceneName == "JoshScene") && (GameObject.Find("StoryController")))
+
+        {
+            Destroy(GameObject.Find("StoryController"));
+        }
+
         InitAudio();            
 	}
 	
@@ -56,6 +69,9 @@ public class SoundController : MonoBehaviour {
 
 
         timeCounter += Time.deltaTime;
+
+
+
 
 	}
 
