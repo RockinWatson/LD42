@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: 8e008d38573444744b31a83264491e25
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: logo2
+    21300002: titlelogo_000
+    21300004: titlelogo_001
+    21300006: titlelogo_002
+    21300008: titlelogo_003
+    21300010: titlelogo_004
+    21300012: titlelogo_005
+    21300014: titlelogo_006
+    21300016: titlelogo_007
+    21300018: titlelogo_008
+    21300020: titlelogo_009
+    21300022: titlelogo_010
+    21300024: titlelogo_011
+    21300026: titlelogo_012
+    21300028: titlelogo_013
+    21300030: titlelogo_014
+    21300032: titlelogo_015
+    21300034: titlelogo_016
+    21300036: titlelogo_017
+    21300038: titlelogo_018
+    21300040: titlelogo_019
+    21300042: titlelogo_020
+    21300044: titlelogo_021
+    21300046: titlelogo_022
+    21300048: titlelogo_023
+    21300050: titlelogo_024
+    21300052: titlelogo_025
+    21300054: titlelogo_026
+    21300056: titlelogo_027
+    21300058: titlelogo_028
+    21300060: titlelogo_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: titlelogo_000
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1690
+        width: 909
+        height: 480
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2429686563218a4789aeed483736d13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1688
+        width: 909
+        height: 480
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6f576e5e725144bac56fee28a851e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_002
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1690
+        width: 909
+        height: 480
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e2672fc2a20dc4e95b787a46196784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1206
+        width: 909
+        height: 480
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372e28c89efd6b040bb332ddda999aef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 724
+        width: 909
+        height: 480
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da4d258fce5ff0479d335bf7a9f053e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 242
+        width: 909
+        height: 480
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27559cd2ce8d612418c41535f02d174b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_006
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1208
+        width: 909
+        height: 480
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e77eae4d0033a14c87f00f6c571e940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_007
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 726
+        width: 909
+        height: 480
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef351cb1cd15df646bbdc6eec1811251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_008
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 245
+        width: 909
+        height: 479
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.48538622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3ae7077c4160c4f8ecf437e0e4f305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_009
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 728
+        width: 908
+        height: 479
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48538622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24591c9b2ebe64848be197659cd1f616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_010
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1209
+        width: 909
+        height: 479
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.48538622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8615952073fa8247aaf914c3cff1651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_011
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 1690
+        width: 909
+        height: 481
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.487526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726ac51e3fa1a914080fa2b4a2050bd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_012
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 1210
+        width: 909
+        height: 478
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.4843096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4359fe17e1e6545be6965343610825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_013
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 2172
+        width: 910
+        height: 478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4843096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617f50d4930206f468eb8542a09c0e16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_014
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 730
+        width: 909
+        height: 478
+      alignment: 9
+      pivot: {x: 0.50055003, y: 0.4843096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d3ac15f18ad1241b058889c396330c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2170
+        width: 910
+        height: 478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4843096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc4efd8016d9934bb6a4b477b934d38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_016
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 2173
+        width: 910
+        height: 478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4843096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e5b1a6e706ffb47bf64c1b92f5f0c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_017
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 3615
+        width: 910
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df195ecc3d9f9347bab9541837de5d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_018
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 3134
+        width: 910
+        height: 479
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48538622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06dddb9665dd3941bb787d857c3d13d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_019
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 3134
+        width: 910
+        height: 479
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48538622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8983f838bb6452f498c5b698d65a644a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_020
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 2653
+        width: 910
+        height: 479
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48538622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75992897e4376fe40bf3e656e7165f92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_021
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 2652
+        width: 910
+        height: 479
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48538622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9f8ecb1505e8747a374ef8aa3f180b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2650
+        width: 910
+        height: 479
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48538622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954fa403feb0be24e81ecd602e362813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_023
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 2653
+        width: 910
+        height: 479
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48538622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a0e1f75b635fe4a83991e4968b8362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_024
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 2172
+        width: 910
+        height: 479
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48538622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c16a4a0ae73384fb0dc27ebdf9b42d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_025
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 3615
+        width: 910
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9249bc880549444b11e2b08481d95a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_026
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 3615
+        width: 910
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db804955bae12bb43b47e31606d9220c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_027
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 3133
+        width: 910
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b258b5791adf65c4f947149d0dbcb3fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3613
+        width: 910
+        height: 482
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4885892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29bf7e5fe9726740a903766a7155a55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlelogo_029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3131
+        width: 910
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48645833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1751c63a7ee3c9d4290d7f4d19e5e52c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 32798080f9ae4ea4fa58cb995aff9476
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
