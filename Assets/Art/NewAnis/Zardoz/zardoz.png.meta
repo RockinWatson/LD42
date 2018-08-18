@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: d38172b34af46d447bbb0bd17cef6594
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: zardoz
+    21300002: zardy_000
+    21300004: zardy_001
+    21300006: zardy_002
+    21300008: zardy_003
+    21300010: zardy_004
+    21300012: zardy_005
+    21300014: zardy_006
+    21300016: zardy_007
+    21300018: zardy_008
+    21300020: zardy_009
+    21300022: zardy_010
+    21300024: zardy_011
+    21300026: zardy_012
+    21300028: zardy_013
+    21300030: zardy_014
+    21300032: zardy_015
+    21300034: zardy_016
+    21300036: zardy_017
+    21300038: zardy_018
+    21300040: zardy_019
+    21300042: zardy_020
+    21300044: zardy_021
+    21300046: zardy_022
+    21300048: zardy_023
+    21300050: zardy_024
+    21300052: zardy_025
+    21300054: zardy_026
+    21300056: zardy_027
+    21300058: zardy_028
+    21300060: zardy_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zardy_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3672
+        width: 406
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13d30c68fb254a42ab3caf4109bef70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_001
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 3672
+        width: 406
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a8b46b14410794188f6b7fd3eab3bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_002
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 3672
+        width: 406
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc37529ab7743843b85f5bf521d377f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_003
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2399
+        width: 405
+        height: 422
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5011848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a01a56b2b8cdb4795e54bea27f9145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_004
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 3247
+        width: 405
+        height: 423
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56975ffa589024a428f1e4ed3005b563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_005
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 3672
+        width: 406
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ecc29f68af41243b4db30669c168f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_006
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 2398
+        width: 405
+        height: 422
+      alignment: 9
+      pivot: {x: 0.49876544, y: 0.5011848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41628a15f335df3459320f8a1714f15b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_007
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1975
+        width: 405
+        height: 422
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5011848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459b8a49c9ed2e34b92618bc8bb71578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_008
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 3248
+        width: 406
+        height: 422
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5011848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a45454573368c498205c16a14a8974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_009
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1551
+        width: 404
+        height: 421
+      alignment: 9
+      pivot: {x: 0.50247526, y: 0.5023753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64ec9604a725564983b97e7a92c3ef0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_010
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1552
+        width: 405
+        height: 421
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5023753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782ad46e716577146916e095613ccad4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_011
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 2823
+        width: 405
+        height: 423
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875e8ca5ee2119344990dfe06769b254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_012
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1974
+        width: 405
+        height: 422
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5011848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7c8a32cd097564da6008d5fb9cbe2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2398
+        width: 405
+        height: 422
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5011848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96b5c2a0578e85488796b4863e22531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_014
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2398
+        width: 405
+        height: 422
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5011848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120595faf8cabd9478c9572625fe55a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1974
+        width: 405
+        height: 422
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5011848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e2e4d32c38b37428ac1073e93d3a22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_016
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1551
+        width: 404
+        height: 421
+      alignment: 9
+      pivot: {x: 0.49752474, y: 0.5023753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368569ee40b3304468f7da840b8a8060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_017
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 3248
+        width: 406
+        height: 422
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5011848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf5a4fc369929f41a80f74e0a6520bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_018
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1549
+        width: 404
+        height: 423
+      alignment: 9
+      pivot: {x: 0.49752474, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c6df8bdfdb5e54b8fd0323cf59b048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1550
+        width: 404
+        height: 422
+      alignment: 9
+      pivot: {x: 0.49752474, y: 0.5011848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e673f6a2fcb61469e2ffb2cab96229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_020
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2823
+        width: 405
+        height: 423
+      alignment: 9
+      pivot: {x: 0.49876544, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165af1ee66e0dbc4f80fa56bf2a5234d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_021
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 2822
+        width: 405
+        height: 423
+      alignment: 9
+      pivot: {x: 0.49876544, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc14b3d9fd786c498cc402c10eb7f89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_022
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 3672
+        width: 406
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e30fc6a3e42d1e44838c604dace655b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2822
+        width: 405
+        height: 423
+      alignment: 9
+      pivot: {x: 0.49876544, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f16ae61fcb0914fac93ca0ed516f42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3247
+        width: 406
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2167fa0f9104bda49b51886267aaf7ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_025
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1974
+        width: 405
+        height: 422
+      alignment: 9
+      pivot: {x: 0.49876544, y: 0.49881518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3b20fd46f31954c95f2afb944899b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_026
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 3247
+        width: 406
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ea43e6d60f9db4f8638efc4fa3b843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_027
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1974
+        width: 405
+        height: 422
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.49881518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a8a67fb217b8d4188bb909267d9abb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_028
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2822
+        width: 405
+        height: 423
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a212fb67c0a4c8240a93a85a8b4084e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zardy_029
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 2398
+        width: 405
+        height: 423
+      alignment: 9
+      pivot: {x: 0.5012346, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f286057b43de93458edc52df8305897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fcfe7c77bbcbd8d4b8050a5cd3c6c77b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
