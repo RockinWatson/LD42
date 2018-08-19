@@ -27,6 +27,9 @@ namespace Assets.Scripts
             //}
             m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             m_buttonJump = Input.GetKeyDown(KeyCode.JoystickButton1);
+#if UNITY_EDITOR
+            m_buttonJump |= Input.GetKeyDown(KeyCode.Space);
+#endif
             bool crouch = Input.GetKey(KeyCode.LeftControl);
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             m_Character.Move(h, crouch, m_buttonJump);
