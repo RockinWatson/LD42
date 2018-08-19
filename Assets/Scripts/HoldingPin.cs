@@ -134,7 +134,7 @@ public class HoldingPin : MonoBehaviour {
         Vector3 animal0pos = animal0.transform.position;
         Vector3 animal1pos = animal1.transform.position;
         Vector3 dir = animal0pos  - animal1pos;
-        float minPairDistance = animal0.GetScale().x;
+        float minPairDistance = animal0.GetScale().x * 2.0f;
         if(dir.magnitude < minPairDistance) {
             animal0.transform.position = (animal0pos + dir.normalized * minPairDistance / 2.0f);
             animal1.transform.position = (animal1pos - dir.normalized * minPairDistance / 2.0f);
