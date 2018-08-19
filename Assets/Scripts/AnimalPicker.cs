@@ -61,18 +61,50 @@ public class AnimalPicker : MonoBehaviour {
 
     private void Awake()
     {
-        _this = this;
-        DontDestroyOnLoad(_this.gameObject);
+        if (!_this)
+        {
+            _this = this;
+            DontDestroyOnLoad(_this.gameObject);
+        } else {
+            Destroy(this.gameObject);
+        }
+    }
+
+    // called first
+    void OnEnable()
+    {
+        _picks = new List<Animal.ANIMAL_TYPE>();
+        _availablePicks = new List<Animal.ANIMAL_TYPE>();
+        
+        //Debug.Log("OnEnable called");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    // called second
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        //Debug.Log("OnSceneLoaded: " + scene.name);
+        //Debug.Log(mode);
+        if(scene.name == "CINY5-pick") {
+            SetupBoard();
+        }
     }
 
     // Use this for initialization
     void Start () {
-        _picks = new List<Animal.ANIMAL_TYPE>();
-        _availablePicks = new List<Animal.ANIMAL_TYPE>();
+        //_picks = new List<Animal.ANIMAL_TYPE>();
+        //_availablePicks = new List<Animal.ANIMAL_TYPE>();
 
         //@TODO: Setup starting state and board
-        SetupBoard();
+        //SetupBoard();
 	}
+
+    // called when the game is terminated
+    void OnDisable()
+    {
+        Debug.Log("OnDisable");
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -98,14 +130,13 @@ public class AnimalPicker : MonoBehaviour {
     private void MakePick(Animal.ANIMAL_TYPE type) {
 
         _picks.Add(type);
+        _leftBin.DestroyAnimals();
+        _rightBin.DestroyAnimals();
         ++_animalPickIndex;
         if(_animalPickIndex == 6) {
             FinishPicking();
             return;
         }
-
-        _leftBin.DestroyAnimals();
-        _rightBin.DestroyAnimals();
 
         PromptRandomAnimals();
     }
@@ -118,6 +149,12 @@ public class AnimalPicker : MonoBehaviour {
     }
 
     private void SetupBoard() {
+        _hud.SetActive(true);
+        _isDonePicking = false;
+        _randomIndex = 0;
+        _animalPickIndex = 0;
+        _picks.Clear();
+        _availablePicks.Clear();
         //@TODO: Populate Available Picks
         _availablePicks.AddRange(System.Enum.GetValues(typeof(Animal.ANIMAL_TYPE)) as IEnumerable<Animal.ANIMAL_TYPE>);
         _availablePicks.Remove(Animal.ANIMAL_TYPE.COUNT);
