@@ -95,7 +95,7 @@ public class HoldingPin : MonoBehaviour {
     }
 
     private Vector3 GetNewAnimalSpawnPos() {
-        const float randomEdge = 1.0f;
+        const float randomEdge = 0.25f;
         return this.transform.position + Vector3.right * Random.Range(-1.0f, 1.0f) * randomEdge;
     }
 
