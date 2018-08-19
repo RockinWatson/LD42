@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SoundController : MonoBehaviour {
 
-    private bool _fart1() { return (Input.GetKeyDown(KeyCode.Alpha4)); }
-    private bool _fart2() { return (Input.GetKeyDown(KeyCode.Alpha6)); }
-    private bool _fart3() { return (Input.GetKeyDown(KeyCode.Alpha5)); }
-    private bool _fart4() { return (Input.GetKeyDown(KeyCode.Alpha8)); }
-    private bool _fart5() { return (Input.GetKeyDown(KeyCode.Alpha7)); }
+    private bool _fart1() { return (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Joystick1Button5)); }
+    private bool _fart2() { return (Input.GetKeyDown(KeyCode.Alpha6) || Input.GetKeyDown(KeyCode.Joystick1Button7)); }
+    private bool _fart3() { return (Input.GetKeyDown(KeyCode.Alpha5) || Input.GetKeyDown(KeyCode.Joystick1Button6)); }
+    private bool _fart4() { return (Input.GetKeyDown(KeyCode.Alpha8) || Input.GetKeyDown(KeyCode.Joystick1Button3)); }
+    private bool _fart5() { return (Input.GetKeyDown(KeyCode.Alpha7) || Input.GetKeyDown(KeyCode.Joystick1Button0)); }
 
 
 

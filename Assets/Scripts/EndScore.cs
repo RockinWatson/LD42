@@ -19,7 +19,7 @@ namespace Assets.Scripts
         {
             if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.JoystickButton9))
             {
-                SceneManager.LoadScene("JoshScene");
+                SceneManager.LoadScene("Title01");
             }
         }
 

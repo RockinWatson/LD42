@@ -982,6 +982,11 @@ Prefab:
       propertyPath: waitForNextMax
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114610598419280974, guid: 8c9a225c612beb74b9b74facb52904d4,
+        type: 2}
+      propertyPath: CloudAmountSingle
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c9a225c612beb74b9b74facb52904d4, type: 2}
   m_IsPrefabAsset: 0

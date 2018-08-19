@@ -29,7 +29,7 @@ namespace Assets.Scripts
             m_buttonJump = Input.GetKeyDown(KeyCode.JoystickButton1);
             bool crouch = Input.GetKey(KeyCode.LeftControl);
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
-            m_Character.Move(h, crouch, m_Jump, m_buttonJump);
+            m_Character.Move(h, crouch, m_buttonJump);
         }
 
 
