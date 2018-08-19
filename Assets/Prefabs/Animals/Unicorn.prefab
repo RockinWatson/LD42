@@ -109,7 +109,7 @@ MonoBehaviour:
   - {fileID: 1915234676874426, guid: 5aa168f3efa9d4ccd884aab52c0d351d, type: 2}
   - {fileID: 1180951538198500, guid: 36ca2721fe0014c3486deb319e7b1197, type: 2}
   _keepAliveScore: 10
-  _cinematicScale: 2
+  _cinematicScale: 1
   _isCinematic: 0
 --- !u!212 &212075752540841500
 SpriteRenderer:
