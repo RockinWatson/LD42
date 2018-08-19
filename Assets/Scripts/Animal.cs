@@ -116,6 +116,7 @@ public class Animal : MonoBehaviour {
         SpriteRenderer sprite = this.GetComponent<SpriteRenderer>();
         sprite.color = new Color(0.0f, 0.0f, 0.0f, 1.0f);
         SoundController.animalDeath.Play();
+        this.GetComponent<Animator>().speed = 0.0f;
     }
 }
 
