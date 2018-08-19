@@ -152,41 +152,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 102617875660476462, guid: 377cd5b75e51c405a89b405bd76809ee,
-        type: 2}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 102897818977092244, guid: 377cd5b75e51c405a89b405bd76809ee,
-        type: 2}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 102405589868624038, guid: 377cd5b75e51c405a89b405bd76809ee,
-        type: 2}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 102617875660476462, guid: 377cd5b75e51c405a89b405bd76809ee,
-        type: 2}
-      propertyPath: m_Color.rgba
-      value: 4289398528
-      objectReference: {fileID: 0}
-    - target: {fileID: 102897818977092244, guid: 377cd5b75e51c405a89b405bd76809ee,
-        type: 2}
-      propertyPath: m_Color.rgba
-      value: 4289398784
-      objectReference: {fileID: 0}
-    - target: {fileID: 102897818977092244, guid: 377cd5b75e51c405a89b405bd76809ee,
-        type: 2}
-      propertyPath: m_FontSize
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 102617875660476462, guid: 377cd5b75e51c405a89b405bd76809ee,
-        type: 2}
-      propertyPath: m_FontSize
-      value: 200
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 377cd5b75e51c405a89b405bd76809ee, type: 2}
   m_IsPrefabAsset: 0
