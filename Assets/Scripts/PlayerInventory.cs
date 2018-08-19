@@ -179,15 +179,16 @@ public class PlayerInventory : MonoBehaviour {
         if (pooCount > 0)
         {
             _poos.Sort();
-            const float pileHeight = 1.0f;
+            float pileHeight = 1.0f * (float)(pooCount) / 50.0f;
             Vector3 trayBase = _tray.transform.position;
             const float randomBaseRange = 0.01f;
             for (int i = 0; i < pooCount; ++i)
             {
                 Vector3 randomBase = trayBase + Vector3.left * Random.Range(-randomBaseRange, randomBaseRange);
-                Vector3 pileTop = randomBase + (_tray.up * pileHeight);
 
                 Poo poo = _poos[i];
+                Vector3 pileTop = randomBase + (_tray.up * pileHeight * poo.GetWeight() / 9.0f);
+
                 poo.transform.localScale = Vector3.one * 0.7f;
                 poo.transform.position = Vector3.Lerp(randomBase, pileTop, i / (float)pooCount);
             }
