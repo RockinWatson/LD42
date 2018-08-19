@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 212322455031044294}
   - component: {fileID: 61925581372096218}
   - component: {fileID: 50966841372531296}
+  - component: {fileID: 95391516468039812}
   m_Layer: 11
   m_Name: Dragon
   m_TagString: Untagged
@@ -88,6 +89,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.4, y: 2.72}
   m_EdgeRadius: 0
+--- !u!95 &95391516468039812
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315523091153696}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 609772a67cd7cc34ea07d53948f96d86, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114176705320425962
 MonoBehaviour:
   m_ObjectHideFlags: 1

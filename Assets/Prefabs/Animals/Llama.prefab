@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 212086288136424274}
   - component: {fileID: 61897445857008182}
   - component: {fileID: 50847083636765908}
+  - component: {fileID: 95143680737657754}
   m_Layer: 11
   m_Name: Llama
   m_TagString: Untagged
@@ -88,6 +89,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.66, y: 2.2}
   m_EdgeRadius: 0
+--- !u!95 &95143680737657754
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668067909785902}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8a63586990390de47b814e55b716a6b2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114050318013955298
 MonoBehaviour:
   m_ObjectHideFlags: 1

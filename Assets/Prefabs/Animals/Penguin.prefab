@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 212565608200680806}
   - component: {fileID: 61356642745799532}
   - component: {fileID: 50915400225943902}
+  - component: {fileID: 95663868942944314}
   m_Layer: 11
   m_Name: Penguin
   m_TagString: Untagged
@@ -88,6 +89,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1, y: 1.64}
   m_EdgeRadius: 0
+--- !u!95 &95663868942944314
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1668534505848664}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 38bd5c6cc27e77144bc5628fff2d9f34, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114952293358072266
 MonoBehaviour:
   m_ObjectHideFlags: 1
