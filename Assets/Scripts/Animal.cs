@@ -71,6 +71,11 @@ public class Animal : MonoBehaviour {
         Vector3 scale = transform.localScale;
         scale.x *= ((Random.Range(-1.0f, 1.0f) > 0.0f) ? 1f : -1f);
         transform.localScale = scale;
+
+        //@NOTE: Random anim start time
+        this.GetComponent<Animator>().Play(0, -1, Random.Range(0.0f, 1.0f));
+        //Random.Range(0.0f, 1.0f);
+        //thisAnim.Play("Smoke", -1, Random.Range(0.0f, 1.0f));
 	}
 	
 	// Update is called once per frame
