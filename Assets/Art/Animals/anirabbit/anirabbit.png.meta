@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: e40d9d639eab4954badadedae918f762
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: anirabbit
+    21300002: rabbi_000
+    21300004: rabbi_001
+    21300006: rabbi_002
+    21300008: rabbi_003
+    21300010: rabbi_004
+    21300012: rabbi_005
+    21300014: rabbi_006
+    21300016: rabbi_007
+    21300018: rabbi_008
+    21300020: rabbi_009
+    21300022: rabbi_010
+    21300024: rabbi_011
+    21300026: rabbi_012
+    21300028: rabbi_013
+    21300030: rabbi_014
+    21300032: rabbi_015
+    21300034: rabbi_016
+    21300036: rabbi_017
+    21300038: rabbi_018
+    21300040: rabbi_019
+    21300042: rabbi_020
+    21300044: rabbi_021
+    21300046: rabbi_022
+    21300048: rabbi_023
+    21300050: rabbi_024
+    21300052: rabbi_025
+    21300054: rabbi_026
+    21300056: rabbi_027
+    21300058: rabbi_028
+    21300060: rabbi_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rabbi_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1531
+        width: 110
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5090909, y: 0.5289256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac99a4d1620cf454f9c79609e36dc7ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_001
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 90
+        width: 103
+        height: 124
+      alignment: 9
+      pivot: {x: 0.46601942, y: 0.5241935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599726ccab75a6745a55fe69f3f97d11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_002
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 475
+        width: 105
+        height: 130
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298f4e9fa5aed274591757ebc382a274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 614
+        width: 106
+        height: 127
+      alignment: 9
+      pivot: {x: 0.4811321, y: 0.511811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023d5a753a638dd4daa8435f9fa210c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_004
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 607
+        width: 106
+        height: 127
+      alignment: 9
+      pivot: {x: 0.4716981, y: 0.511811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c99e0c8fd5241d47b83b3915158548b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1006
+        width: 107
+        height: 127
+      alignment: 9
+      pivot: {x: 0.47663552, y: 0.503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86573f687d25c25419643a8d84903a6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_006
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1522
+        width: 109
+        height: 130
+      alignment: 9
+      pivot: {x: 0.48623854, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f7e5b3cbed250489d7982e5a7f7367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_007
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1917
+        width: 111
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4954955, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ad97d650221744599e75e7fc2e0f57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_008
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1786
+        width: 111
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4954955, y: 0.503876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6f040d437af424ea69db16742eabe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1399
+        width: 108
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da71ea29d5683e43a1a13ccddb55605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1786
+        width: 111
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4954955, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1819c09dcd24c04a80d42b930a2b57c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1918
+        width: 112
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.503876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc71fcd7006720145abe4d52e0ae497d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1654
+        width: 110
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4909091, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb02fae12b472f48ace3bbeab0408ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_013
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1390
+        width: 108
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf364d540206d44483a068cd3b6c834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_014
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1258
+        width: 107
+        height: 130
+      alignment: 9
+      pivot: {x: 0.47663552, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41671e79376826c4e836766562cb0bf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_015
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1654
+        width: 110
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4909091, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdabd20722eba744cbbb31608c03224d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 874
+        width: 106
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4716981, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a6a0a534b9dbb4b8f81d9d71e1fb5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1267
+        width: 108
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e791cdf94da3add43891f094f2560584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1135
+        width: 107
+        height: 130
+      alignment: 9
+      pivot: {x: 0.48598132, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1560cb99ecaea694a8b3dc14730ec643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 357
+        width: 105
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a580a4a70fb1f4781d5c3150ece669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 743
+        width: 106
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4716981, y: 0.503876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f491c7f7203b016488646c59f9e3455e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_021
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 736
+        width: 106
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4811321, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8516e57bf28b26740b5bd0198619c8d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_022
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1127
+        width: 107
+        height: 129
+      alignment: 9
+      pivot: {x: 0.48598132, y: 0.503876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb44fc62f33ff834fb2c31b577329972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_023
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 347
+        width: 105
+        height: 126
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.515873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823380fe3c8bcb547982fa63eeee3744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_024
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 866
+        width: 106
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4716981, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7922e3ff5db2e648a01f753daf0e423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 487
+        width: 106
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4716981, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d6916bb99868b4db1a2763cc42a527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_026
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 998
+        width: 107
+        height: 127
+      alignment: 9
+      pivot: {x: 0.48598132, y: 0.511811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467617b3f1cff1549a77022c0b9fc8ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 230
+        width: 105
+        height: 125
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d9da10a6d17c148940f82392a82c70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 104
+        height: 125
+      alignment: 9
+      pivot: {x: 0.48076922, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a977f905b23c0e645a9bbf94af2b04ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbi_029
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 216
+        width: 104
+        height: 129
+      alignment: 9
+      pivot: {x: 0.48076922, y: 0.503876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf3c34f51a2f954ba9cb7a30b6020e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c8d6b69010e9a8840b95ccd7f1092c2a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

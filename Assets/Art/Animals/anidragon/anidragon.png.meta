@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: 0fe4b2c1556c6e04dbf088d7c36e9aeb
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: anidragon
+    21300002: draggo_000
+    21300004: draggo_001
+    21300006: draggo_002
+    21300008: draggo_003
+    21300010: draggo_004
+    21300012: draggo_005
+    21300014: draggo_006
+    21300016: draggo_007
+    21300018: draggo_008
+    21300020: draggo_009
+    21300022: draggo_010
+    21300024: draggo_011
+    21300026: draggo_012
+    21300028: draggo_013
+    21300030: draggo_014
+    21300032: draggo_015
+    21300034: draggo_016
+    21300036: draggo_017
+    21300038: draggo_018
+    21300040: draggo_019
+    21300042: draggo_020
+    21300044: draggo_021
+    21300046: draggo_022
+    21300048: draggo_023
+    21300050: draggo_024
+    21300052: draggo_025
+    21300054: draggo_026
+    21300056: draggo_027
+    21300058: draggo_028
+    21300060: draggo_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: draggo_000
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1
+        width: 243
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.52288735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ee9f1f2ae41eb409b87c6287bbe684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_001
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1760
+        width: 243
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.5174216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea912cfc5c3d540419ad2a018379e497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_002
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 278
+        width: 243
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.512069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c94b155449df4a499d27f3aa449b0b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_003
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 271
+        width: 243
+        height: 293
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.5068259}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13a12177eaaaa943b60838a611429e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1752
+        width: 244
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50338984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d468d9ee5b2864c8812f6300f8247f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1455
+        width: 243
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.50338984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a999cea8f0be44e9d970272293b7a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 862
+        width: 244
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346e0a5768e30a14f873d5a4a02a94dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1158
+        width: 243
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.50338984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6c98e8b217ebe4cb4567674096ea58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_008
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1456
+        width: 243
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.50510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662b3192a7afe424e96753db3428cd51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_009
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1753
+        width: 243
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.50510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18509fd222151e64aa0faf074cd5b463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_010
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1160
+        width: 243
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.50510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0eefda6d02c294886cec1c2a23dc26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_011
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1458
+        width: 243
+        height: 293
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.5068259}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df39ba90066ad2c47a55cfca5aa08bdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 566
+        width: 243
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.50510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19233a4b7997b548b8841a076a10b3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 270
+        width: 243
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.50510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0e4051585fcd148900b1a485dd3c17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_014
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 566
+        width: 243
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.50510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eea9ba2f05112c4eb64036adef92b70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_015
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 864
+        width: 243
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.50510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188b65c082519824296b84ae3851976d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_016
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1755
+        width: 243
+        height: 292
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.5085617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012a8ae2c9fe6784e9e9ac4b43c1070e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_017
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1164
+        width: 243
+        height: 292
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.5085617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0efd1d8101cc6049925d3d01b649d11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_018
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 579
+        width: 242
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5041322, y: 0.512069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11da58519135ad4dbac56dea56049ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_019
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 871
+        width: 242
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5041322, y: 0.5103093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530042855d042014c8e1386bab8d91cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_020
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1464
+        width: 242
+        height: 289
+      alignment: 9
+      pivot: {x: 0.5041322, y: 0.51384085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e067425d8bee4644ac6847f0a92869b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_021
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 570
+        width: 242
+        height: 292
+      alignment: 9
+      pivot: {x: 0.5041322, y: 0.5085617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a464165da9ae90e448dfed240987d2b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_022
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 287
+        width: 241
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5062241, y: 0.512069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d769e9d7a66ace84c8ba100cf402bdae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_023
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1175
+        width: 242
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5041322, y: 0.5174216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765eb060ab63c534a99eef385a080e50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_024
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 887
+        width: 242
+        height: 286
+      alignment: 9
+      pivot: {x: 0.5041322, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57b35be7755640429876a41a0e53070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_025
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 599
+        width: 242
+        height: 286
+      alignment: 9
+      pivot: {x: 0.5041322, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ee4a60249822d4b9f8ba08d2076389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_026
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 25
+        width: 242
+        height: 285
+      alignment: 9
+      pivot: {x: 0.5041322, y: 0.52105266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6961fa0e406856f4a866634e3853460b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_027
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1763
+        width: 243
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.52288735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d1fc9dbb2638948a839e676a364eb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_028
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 312
+        width: 243
+        height: 285
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.52105266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5fc80140168614cb3693c18f2ae5a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draggo_029
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1764
+        width: 243
+        height: 283
+      alignment: 9
+      pivot: {x: 0.5020576, y: 0.524735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b5dd5824031d443b56f2ebd89e331e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4195339e8f749784996fbbf3b1b2b67f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

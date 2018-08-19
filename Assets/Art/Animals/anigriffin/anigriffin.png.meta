@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: fcfcb7ca89b2faf40997bf7be08197c4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: anigriffin
+    21300002: Grif_000
+    21300004: Grif_001
+    21300006: Grif_002
+    21300008: Grif_003
+    21300010: Grif_004
+    21300012: Grif_005
+    21300014: Grif_006
+    21300016: Grif_007
+    21300018: Grif_008
+    21300020: Grif_009
+    21300022: Grif_010
+    21300024: Grif_011
+    21300026: Grif_012
+    21300028: Grif_013
+    21300030: Grif_014
+    21300032: Grif_015
+    21300034: Grif_016
+    21300036: Grif_017
+    21300038: Grif_018
+    21300040: Grif_019
+    21300042: Grif_020
+    21300044: Grif_021
+    21300046: Grif_022
+    21300048: Grif_023
+    21300050: Grif_024
+    21300052: Grif_025
+    21300054: Grif_026
+    21300056: Grif_027
+    21300058: Grif_028
+    21300060: Grif_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grif_000
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 123
+        width: 267
+        height: 212
+      alignment: 9
+      pivot: {x: 0.50187266, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52a420433e541b4799339940f5f03f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_001
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 337
+        width: 273
+        height: 212
+      alignment: 9
+      pivot: {x: 0.50549453, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e3936207401284c9c45aec122f1ec2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_002
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 551
+        width: 284
+        height: 212
+      alignment: 9
+      pivot: {x: 0.4964789, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84365942d5f26f40816d5a131b38366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_003
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1193
+        width: 290
+        height: 212
+      alignment: 9
+      pivot: {x: 0.4862069, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbbcada30aa9ca4ab2b485dea7eec36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_004
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 979
+        width: 288
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5173611, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f059fcca6f8a55a499d2d162338fae41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_005
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 979
+        width: 289
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5051903, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2caf99ea27cd0a146be81e233d760f1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 337
+        width: 299
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5083612, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f35ba1d019b6f94f8eccf6aea4fad00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_007
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 551
+        width: 294
+        height: 212
+      alignment: 9
+      pivot: {x: 0.50340134, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cab316cd2eabe45aca8bb426161d7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1407
+        width: 303
+        height: 212
+      alignment: 9
+      pivot: {x: 0.50165015, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b985aa47a780341ad0e0365e658151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1193
+        width: 303
+        height: 212
+      alignment: 9
+      pivot: {x: 0.50165015, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced81421229c8be4abdc1764d5f6f5d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1835
+        width: 304
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c078a61146c6ef6469d1f5b434eb815f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_011
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1835
+        width: 304
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4daba10bba6c2274fa71098a07ac0931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_012
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1835
+        width: 304
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909e223af6f26c94fb790c5275ccec77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_013
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1835
+        width: 304
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6f58c9b331c8941b04aa53cd8eff93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_014
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1835
+        width: 304
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e86e604ac0a0764ea5b527eaf9bb8f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 979
+        width: 303
+        height: 212
+      alignment: 9
+      pivot: {x: 0.50165015, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa2326f2d14cda43a33d2c97ca53d75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 765
+        width: 303
+        height: 212
+      alignment: 9
+      pivot: {x: 0.49834985, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e83cbebcadb4f142846ebacdb36864f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_017
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1835
+        width: 304
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24826278c1336fd4098c02193ef8f275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1621
+        width: 304
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d2563bd54081c4aa9bcb10bc1af3e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_019
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 337
+        width: 297
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5016835, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89535832aa8bdf44a2bc63fb97dd52b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 123
+        width: 299
+        height: 212
+      alignment: 9
+      pivot: {x: 0.4916388, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5402215acdaf7478ce81aa9ae54c32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 551
+        width: 300
+        height: 212
+      alignment: 9
+      pivot: {x: 0.49666667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f62e14d81090924998290efe0e0d827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_022
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1407
+        width: 292
+        height: 212
+      alignment: 9
+      pivot: {x: 0.49315068, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78dda585e802db64d83513a3be19970f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_023
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1621
+        width: 291
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5017182, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cfdc9bfdd183b4593e06f91bae44c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_024
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 765
+        width: 286
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f1e6e4804c86d44b4db4b81227075c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_025
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 123
+        width: 293
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5153584, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f5f9486ca91e344822eb6757534fa8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_026
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1193
+        width: 287
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5191638, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646bf6345ceefbb43907b6cb8e24782c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_027
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 123
+        width: 293
+        height: 212
+      alignment: 9
+      pivot: {x: 0.49146757, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e026431f5c5b15d48975366005ce280a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_028
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 765
+        width: 289
+        height: 212
+      alignment: 9
+      pivot: {x: 0.4982699, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed95dc7e0f7598144b35260c164bdd51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grif_029
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 337
+        width: 281
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5017794, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d2eba0a1faede4a9260a8d50550a38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c3479ff9fde57bf40bfba880f17c4691
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

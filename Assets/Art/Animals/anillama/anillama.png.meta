@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: be988de4b6c8a5a4e98603c74c772149
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: anillama
+    21300002: llcoolj_000
+    21300004: llcoolj_001
+    21300006: llcoolj_002
+    21300008: llcoolj_003
+    21300010: llcoolj_004
+    21300012: llcoolj_005
+    21300014: llcoolj_006
+    21300016: llcoolj_007
+    21300018: llcoolj_008
+    21300020: llcoolj_009
+    21300022: llcoolj_010
+    21300024: llcoolj_011
+    21300026: llcoolj_012
+    21300028: llcoolj_013
+    21300030: llcoolj_014
+    21300032: llcoolj_015
+    21300034: llcoolj_016
+    21300036: llcoolj_017
+    21300038: llcoolj_018
+    21300040: llcoolj_019
+    21300042: llcoolj_020
+    21300044: llcoolj_021
+    21300046: llcoolj_022
+    21300048: llcoolj_023
+    21300050: llcoolj_024
+    21300052: llcoolj_025
+    21300054: llcoolj_026
+    21300056: llcoolj_027
+    21300058: llcoolj_028
+    21300060: llcoolj_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: llcoolj_000
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 923
+        width: 168
+        height: 222
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.5045045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb868e2eb8ab0f44495df920b252de37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 702
+        width: 168
+        height: 222
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.5045045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af453f1b8f3ad13498ed01a6be22b2f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_002
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1598
+        width: 169
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594eec6d58576ef449b89ac4cfcd3516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_003
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1597
+        width: 169
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2388d5908313c4189b2a787bd32164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_004
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1823
+        width: 172
+        height: 224
+      alignment: 9
+      pivot: {x: 0.50581396, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407b7970228bfbc44bd5f540b0fa6e21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1599
+        width: 172
+        height: 224
+      alignment: 9
+      pivot: {x: 0.50581396, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fda4664dc464784c8cfa8d6bdde6556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1373
+        width: 169
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26042a0584efa85488009fba16da5056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_007
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1147
+        width: 168
+        height: 224
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0bee5dba59c7c4191bf135934ac7d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_008
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1598
+        width: 169
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769d9d8577eb20d4e9f4fa3d1675abdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_009
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1374
+        width: 169
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5045045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ef8ea0b7568da48a2c4589565d5b74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_010
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1373
+        width: 169
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5045045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7780aa481a95b204ea5f6a2f74c41ed7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 926
+        width: 168
+        height: 223
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.50224215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2215da6b64c9a642a18007a6f0cb4e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_012
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 703
+        width: 168
+        height: 221
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.50678736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b4415bf0aae3140a730a23b23b5c33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_013
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1152
+        width: 169
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6d85c9a26756d45a9634ca8312783f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_014
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 935
+        width: 169
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107236cfedeed7c4da0bd3836799fd12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_015
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1157
+        width: 169
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.50678736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34ae4dc0fbb1c4438b8634e78f51706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_016
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 930
+        width: 169
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf90793a645de524298561e8aa238f83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_017
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1605
+        width: 170
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5117647, y: 0.51141554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb4a19985e8ac344a65291a43254292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_018
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 706
+        width: 168
+        height: 222
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.5045045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abbfdd483908a846bc232326f81b85b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_019
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1374
+        width: 169
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5045045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9ad6ba2500c7c4aa0be03ce309d766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_020
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 701
+        width: 168
+        height: 220
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d508e193817bfd4886c57491e089f87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_021
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 713
+        width: 169
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d813a3f44c7bf3458cf5678d6fbd331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1151
+        width: 169
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13d6432f2ae5864a9c889eb45fb9b02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_023
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1824
+        width: 171
+        height: 223
+      alignment: 9
+      pivot: {x: 0.50877196, y: 0.50224215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55312708091c6fc43ac4b59c88baf7e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_024
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1824
+        width: 171
+        height: 223
+      alignment: 9
+      pivot: {x: 0.50877196, y: 0.50224215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804360069ecd2bc4a906e8974df8166f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1825
+        width: 173
+        height: 222
+      alignment: 9
+      pivot: {x: 0.50289017, y: 0.5045045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec804c985720ba44918fd439bc55649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_026
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1826
+        width: 171
+        height: 221
+      alignment: 9
+      pivot: {x: 0.50877196, y: 0.50678736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfece46adb88d9488fbe029c2fffed8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_027
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1151
+        width: 169
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.50678736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6721ab031d342429ebe56304390deb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_028
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1380
+        width: 169
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.50224215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ff7fa101731a34b8b36dd74516bd5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llcoolj_029
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 926
+        width: 168
+        height: 223
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.50224215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c323988081dd0324aaccca35c3e3754d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 120ffc218fb41d54896d9c1e8323899a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

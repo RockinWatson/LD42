@@ -1,6 +1,18 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/Art/Animals/anibat/anibat.tpsheet
+- Assets/Art/Animals/anicat/anicat.tpsheet
+- Assets/Art/Animals/anidog/anidog.tpsheet
+- Assets/Art/Animals/anidragon/anidragon.tpsheet
+- Assets/Art/Animals/anigoose/anigoose.tpsheet
+- Assets/Art/Animals/anigriffin/anigriffin.tpsheet
+- Assets/Art/Animals/anillama/anillama.tpsheet
+- Assets/Art/Animals/anipen/anipen.tpsheet
+- Assets/Art/Animals/aniphoenix/aniphoenix.tpsheet
+- Assets/Art/Animals/anirabbit/anirabbit.tpsheet
+- Assets/Art/Animals/anisaber/anisaber.tpsheet
+- Assets/Art/Animals/aniunicorn/aniunicorn.tpsheet
 - Assets/Art/NewAnis/arm1/arm1.tpsheet
 - Assets/Art/NewAnis/arm2/arm2.tpsheet
 - Assets/Art/NewAnis/begin/begin.tpsheet
@@ -31,6 +43,18 @@ tpsheetFileNames:
 - Assets/Art/Noah/Walk/Animations.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
+- Assets/Art/Animals/anibat/anibat.png
+- Assets/Art/Animals/anicat/anicat.png
+- Assets/Art/Animals/anidog/anidog.png
+- Assets/Art/Animals/anidragon/anidragon.png
+- Assets/Art/Animals/anigoose/anigoose.png
+- Assets/Art/Animals/anigriffin/anigriffin.png
+- Assets/Art/Animals/anillama/anillama.png
+- Assets/Art/Animals/anipen/anipen.png
+- Assets/Art/Animals/aniphoenix/aniphoenix.png
+- Assets/Art/Animals/anirabbit/anirabbit.png
+- Assets/Art/Animals/anisaber/anisaber.png
+- Assets/Art/Animals/aniunicorn/aniunicorn.png
 - Assets/Art/NewAnis/arm1/arm1.png
 - Assets/Art/NewAnis/arm2/arm2.png
 - Assets/Art/NewAnis/begin/begin.png
@@ -61,6 +85,18 @@ textureFileNames:
 - Assets/Art/Noah/Walk/Animations.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

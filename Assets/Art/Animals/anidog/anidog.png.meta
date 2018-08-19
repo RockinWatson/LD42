@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: 1411aec1be4d05a4e99e67c7f4277867
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: anidog
+    21300002: doggo_000
+    21300004: doggo_001
+    21300006: doggo_002
+    21300008: doggo_003
+    21300010: doggo_004
+    21300012: doggo_005
+    21300014: doggo_006
+    21300016: doggo_007
+    21300018: doggo_008
+    21300020: doggo_009
+    21300022: doggo_010
+    21300024: doggo_011
+    21300026: doggo_012
+    21300028: doggo_013
+    21300030: doggo_014
+    21300032: doggo_015
+    21300034: doggo_016
+    21300036: doggo_017
+    21300038: doggo_018
+    21300040: doggo_019
+    21300042: doggo_020
+    21300044: doggo_021
+    21300046: doggo_022
+    21300048: doggo_023
+    21300050: doggo_024
+    21300052: doggo_025
+    21300054: doggo_026
+    21300056: doggo_027
+    21300058: doggo_028
+    21300060: doggo_029
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doggo_000
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 632
+        width: 144
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5798611, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223dad326e67bf2418a2b9dc59845bda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_001
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 763
+        width: 147
+        height: 129
+      alignment: 9
+      pivot: {x: 0.57482994, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6fc082d31a3af46a64e574f469b736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_002
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 501
+        width: 141
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5992908, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe8d2dab3732e045b505b844288d6d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 372
+        width: 141
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5992908, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa95238343f369f4293dd055dd78686d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_004
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 763
+        width: 145
+        height: 129
+      alignment: 9
+      pivot: {x: 0.58965516, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a751538277c9034c8c69957b3ef5f5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_005
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 370
+        width: 139
+        height: 129
+      alignment: 9
+      pivot: {x: 0.6151079, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f2455f56fbb314db12b33e94f3e457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_006
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 632
+        width: 143
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5979021, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4257e61680ce44487f04e21e5b9267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_007
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 501
+        width: 141
+        height: 129
+      alignment: 9
+      pivot: {x: 0.60638297, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cce55c6b3267d4ea0c958ebe572f2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_008
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 894
+        width: 160
+        height: 129
+      alignment: 9
+      pivot: {x: 0.534375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6360285ecc23da442b5ee6ff97bbe427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 894
+        width: 166
+        height: 129
+      alignment: 9
+      pivot: {x: 0.51506025, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ac118ee0a955242a114a28da70e0eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_010
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 894
+        width: 164
+        height: 129
+      alignment: 9
+      pivot: {x: 0.52134144, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1d35072a7a08847b706c44265bedb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_011
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 894
+        width: 157
+        height: 129
+      alignment: 9
+      pivot: {x: 0.544586, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288f444d43d1fcf438e91a6e704ffd4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_012
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 501
+        width: 141
+        height: 129
+      alignment: 9
+      pivot: {x: 0.60638297, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1df556d8ca896f4785b368792e1086a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_013
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 894
+        width: 149
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5738255, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514f74d46d705424d8e0864fc6aa83b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_014
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 763
+        width: 145
+        height: 129
+      alignment: 9
+      pivot: {x: 0.58965516, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cebdf853fafdb641a0ffd9e506615ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 763
+        width: 146
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5856164, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0927f6c50dfea4d875cc4ba6e17059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_016
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 372
+        width: 140
+        height: 127
+      alignment: 9
+      pivot: {x: 0.61071426, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218d851342d4cd14aa1f735bc0ab134a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_017
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 632
+        width: 140
+        height: 129
+      alignment: 9
+      pivot: {x: 0.61071426, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe0687bfcc90ca4c8a966959e72b3bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_018
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 763
+        width: 145
+        height: 129
+      alignment: 9
+      pivot: {x: 0.58965516, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cce5f35ecae124cab97e8628c52473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 633
+        width: 144
+        height: 128
+      alignment: 9
+      pivot: {x: 0.59375, y: 0.50390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2740d1581c878d44fa166b35f2579431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_020
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 895
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.56333333, y: 0.50390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f0bbfe23b4d164b892a2b9a0dac584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 503
+        width: 143
+        height: 128
+      alignment: 9
+      pivot: {x: 0.59090906, y: 0.50390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03df9b9fca2a53b42acb8f3063f0a692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_022
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 632
+        width: 142
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5950704, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59a578861e47d547b4b157cad180858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_023
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 371
+        width: 141
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5992908, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78369882d65754a4e96fd7c48bce37b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_024
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 632
+        width: 142
+        height: 129
+      alignment: 9
+      pivot: {x: 0.60211265, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8839cbd1952c64c8563624fb494b88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_025
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 502
+        width: 142
+        height: 129
+      alignment: 9
+      pivot: {x: 0.60211265, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a104957d2f475ca4b98fa6429ae63567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_026
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 501
+        width: 142
+        height: 129
+      alignment: 9
+      pivot: {x: 0.60211265, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9706cf172288683478ed5227b9b3d83a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_027
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 633
+        width: 145
+        height: 129
+      alignment: 9
+      pivot: {x: 0.58965516, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5642c52d46e9a747b8188844669608b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_028
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 501
+        width: 142
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5950704, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f4f650257f15345a311009c14a3198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggo_029
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 764
+        width: 149
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5671141, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7852e26b5134a73408631d075bd2d51a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 77439fdc8d17d704b8f4cb76ab08aa83
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
