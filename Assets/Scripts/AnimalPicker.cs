@@ -39,6 +39,11 @@ public class AnimalPicker : MonoBehaviour {
         return _picks;
     }
     private List<Animal.ANIMAL_TYPE> _availablePicks = null;
+    private List<Animal.ANIMAL_TYPE> _unpicked = null;
+    public List<Animal.ANIMAL_TYPE> GetUnpicked()
+    {
+        return _unpicked;
+    }
     private int _randomIndex = 0;
 
     private int _animalPickIndex = 0;
@@ -75,6 +80,7 @@ public class AnimalPicker : MonoBehaviour {
     {
         _picks = new List<Animal.ANIMAL_TYPE>();
         _availablePicks = new List<Animal.ANIMAL_TYPE>();
+        _unpicked = new List<Animal.ANIMAL_TYPE>();
         
         //Debug.Log("OnEnable called");
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -119,10 +125,12 @@ public class AnimalPicker : MonoBehaviour {
         //switch(Input.GetKeyDown())
         if (LeftKeyDown())
         {
+            _unpicked.Add(_rightType);
             MakePick(_leftType);
         }
         else if (RightKeyDown())
         {
+            _unpicked.Add(_leftType);
             MakePick(_rightType);
         }
     }
@@ -145,7 +153,7 @@ public class AnimalPicker : MonoBehaviour {
         //@TODO: Launch next cinematic scene.
         _isDonePicking = true;
         _hud.SetActive(false);
-        SceneManager.LoadScene("CINY6");
+        SceneManager.LoadScene("CINY5-flood");
     }
 
     private void SetupBoard() {
@@ -155,6 +163,7 @@ public class AnimalPicker : MonoBehaviour {
         _animalPickIndex = 0;
         _picks.Clear();
         _availablePicks.Clear();
+        _unpicked.Clear();
         //@TODO: Populate Available Picks
         _availablePicks.AddRange(System.Enum.GetValues(typeof(Animal.ANIMAL_TYPE)) as IEnumerable<Animal.ANIMAL_TYPE>);
         _availablePicks.Remove(Animal.ANIMAL_TYPE.COUNT);
@@ -195,8 +204,11 @@ public class AnimalPicker : MonoBehaviour {
         }
     }
 
-    private Animal.ANIMAL_TYPE GetPseudoRandomAvailablePick() {
+    public Animal.ANIMAL_TYPE GetPseudoRandomAvailablePick() {
         return _availablePicks[_randomIndex++];
+        //Animal.ANIMAL_TYPE type = _availablePicks[0];
+        //_availablePicks.RemoveAt(0);
+        //return type;
     }
 
     private Animal.ANIMAL_TYPE GetRandomAvailablePick() {
