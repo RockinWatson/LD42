@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class RestartController : MonoBehaviour {
 
-    private bool _restart() { return (Input.GetKeyDown(KeyCode.R)); }
+    private bool _restart() { return (Input.GetKeyDown(KeyCode.R)) || (Input.GetKeyDown(KeyCode.Joystick1Button9)); }
 
     private static bool created = false;
 
